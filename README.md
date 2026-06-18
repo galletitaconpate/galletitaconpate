@@ -30,7 +30,7 @@ Handle   : galletitaconpate / r4zk3r
 Role     : Sr. Pentest Operations Specialist @ Strike
 XP       : 6+ years · 500+ vulnerabilities exploited
 Focus    : Web/API · Mobile (iOS/Android) · Active Directory · WiFi · Cloud
-Location : Buenos Aires, Argentina
+Location : Argentina
 ```
 
 Offensive security practitioner specializing in complex vulnerability research across web, mobile, network and cloud environments. I break things professionally — and occasionally document how.
