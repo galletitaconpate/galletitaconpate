@@ -44,8 +44,6 @@ Offensive security practitioner specializing in complex vulnerability research a
 | **HackerOne** · `galletitaconpate` | 🎯 Signal **7.0** (99th pct) · Impact **25.0** (89th pct) · **96** rep · **23** vulns |
 | **CyScope** · `r4zk3r` | 🏆 Rank **#7** · **638 pts** · **57 vulns** · **80%** accuracy · avg severity **6.59** |
 
-**Notable findings:** Hexagon (admin console + 3575 accounts exposed), Toyota (ATO, IDOR, HTML injection), Fluentic (Stripe webhook forgery), Itaú Unibanco, MercadoLibre, McKesson, Whoop
-
 ---
 
 ## exploit development
