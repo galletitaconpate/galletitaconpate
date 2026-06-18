@@ -77,9 +77,9 @@ Proof-of-concept exploits for public CVEs — [galletitaconpate/CVEs](https://gi
 | 🟩 CWES | HTB Certified Web Exploitation Specialist | ✅ Dec 2025 |
 | 🟧 COAE | HTB Certified Offensive AI Expert | ⏳ In Review |
 | 🟦 CPTS | HTB Penetration Tester | ✅ Completed |
-| 🟦 CWEE | HTB Senior Web Penetration Tester | 🔄 100% |
-| 🟦 CAPE | HTB Active Directory Penetration Tester | 🔄 100% |
-| 🟦 CWPE | HTB Wi-Fi Penetration Tester | 🔄 100% |
+| 🟦 CWEE | HTB Senior Web Penetration Tester | 🔄 ✅ Completed |
+| 🟦 CAPE | HTB Active Directory Penetration Tester | 🔄 34% |
+| 🟦 CWPE | HTB Wi-Fi Penetration Tester | 🔄 ✅ Completed |
 
 ---
 
