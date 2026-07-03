@@ -106,4 +106,4 @@ skills = {
 <p align="center">
   <sub>⚠️ All security research conducted with explicit authorization or within established bug bounty programs.</sub>
 </p>
-```
+
