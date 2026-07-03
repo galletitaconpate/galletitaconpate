@@ -103,15 +103,6 @@ skills = {
 
 ---
 
-## github stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=galletitaconpate&show_icons=true&theme=dark&hide_border=true&count_private=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=galletitaconpate&layout=compact&theme=dark&hide_border=true" height="150"/>
-</p>
-
----
-
 <p align="center">
   <sub>⚠️ All security research conducted with explicit authorization or within established bug bounty programs.</sub>
 </p>
