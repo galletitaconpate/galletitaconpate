@@ -87,6 +87,12 @@ Proof-of-concept exploits for public CVEs — [galletitaconpate/CVEs](https://gi
 | 🟩 eWPT | Web application Penetration Tester | ✅ Feb 2022 |
 ---
 
+### 🛡️ Security Research & Disclosures
+
+| ID | Target | Type | Advisory / Links |
+| :--- | :--- | :--- | :--- |
+| **GHSA-j4rw-3r36-79pm** | DefectDojo | Missing Authorization (IDOR) | [GitHub Advisory](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-j4rw-3r36-79pm) |
+
 ## stack
 
 ```python
