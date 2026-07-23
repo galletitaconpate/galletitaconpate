@@ -45,6 +45,12 @@ Offensive security practitioner specializing in complex vulnerability research a
 | **HackerOne** · `galletitaconpate` | 🎯 Signal **7.0** (95th pct) · Impact **21.0** (90th pct) · **426** rep · **25** vulns |
 | **CyScope** · `r4zk3r` | 🏆 Rank **#7** · **638 pts** · **57 vulns** · **78%** accuracy · avg severity **6.59** |
 
+### 🛡️ Security Research & Disclosures
+
+| ID | Target | Type | Advisory / Links |
+| :--- | :--- | :--- | :--- |
+| **GHSA-j4rw-3r36-79pm** | DefectDojo | Missing Authorization (IDOR) | [GitHub Advisory](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-j4rw-3r36-79pm) |
+
 ---
 
 ## exploit development
@@ -86,12 +92,6 @@ Proof-of-concept exploits for public CVEs — [galletitaconpate/CVEs](https://gi
 | 🟩 eJPT | Junior Penetration Tester | ✅ May 2021 |
 | 🟩 eWPT | Web application Penetration Tester | ✅ Feb 2022 |
 ---
-
-### 🛡️ Security Research & Disclosures
-
-| ID | Target | Type | Advisory / Links |
-| :--- | :--- | :--- | :--- |
-| **GHSA-j4rw-3r36-79pm** | DefectDojo | Missing Authorization (IDOR) | [GitHub Advisory](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-j4rw-3r36-79pm) |
 
 ## stack
 
