@@ -49,7 +49,8 @@ Offensive security practitioner specializing in complex vulnerability research a
 
 | ID | Target | Type | Advisory / Links |
 | :--- | :--- | :--- | :--- |
-| **GHSA-j4rw-3r36-79pm** | DefectDojo | Missing Authorization (IDOR) | [GitHub Advisory](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-j4rw-3r36-79pm) |
+| **GHSA-j4rw-3r36-79pm** | DefectDojo | Missing Authorization on Questionnaire Relink Allows Cross-Product Access to Questionnaire Responses | [GitHub Advisory](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-j4rw-3r36-79pm) |
+| **GHSA-43f3-w9fq-8v5j** | DefectDojo | Improper Authorization Allows Account Takeover by a Delegated User Manager | [GitHub Advisory](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-43f3-w9fq-8v5j) |
 
 ---
 
