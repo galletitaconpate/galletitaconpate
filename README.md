@@ -51,6 +51,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | :--- | :--- | :--- | :--- |
 | **GHSA-j4rw-3r36-79pm** | DefectDojo | Missing Authorization on Questionnaire Relink Allows Cross-Product Access to Questionnaire Responses | [GitHub Advisory](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-j4rw-3r36-79pm) |
 | **GHSA-43f3-w9fq-8v5j** | DefectDojo | Improper Authorization Allows Account Takeover by a Delegated User Manager | [GitHub Advisory](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-43f3-w9fq-8v5j) |
+| **GHSA-7w4m-r6wp-2c5r* | DefectDojo | Cross-Product Authorization Gaps in the V3 Locations Feature Allow an Authenticated User to Access and Modify Other Products' Location/Endpoint Data | [GitHub Advisory](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-7w4m-r6wp-2c5r) |
 
 ---
 
