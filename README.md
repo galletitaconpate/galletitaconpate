@@ -84,9 +84,9 @@ Proof-of-concept exploits for public CVEs — [galletitaconpate/CVEs](https://gi
 | Badge | Name | Status |
 |-------|------|--------|
 | 🟩 CJCA | HTB Certified Junior Cybersecurity Associate | ✅ July 2026 |
-| 🟧 CPTS | HTB Certified Penetration Testing Specialist | ⏳In Progress |
+| 🟧 CPTS | HTB Certified Penetration Testing Specialist | ⏳Waiting for results |
 | 🟩 CWES | HTB Certified Web Exploitation Specialist | ✅ Dec 2025 |
-| 🟩 CDSA | HTB Certified Defensive Security Analyst | 🔄 100% ⏳To Do |
+| 🟩 CDSA | HTB Certified Defensive Security Analyst | 🔄 100% |
 | 🟦 CWEE | HTB Certified Web Exploitation Expert | 🔄 19.2% |
 | 🟦 CAPE | HTB Active Directory Penetration Tester | 🔄 14.2% |
 | 🟦 CWPE | HTB Wi-Fi Penetration Tester | 🔄 34.1% |
