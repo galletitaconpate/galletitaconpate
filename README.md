@@ -55,27 +55,139 @@ Offensive security practitioner specializing in complex vulnerability research a
 
 ---
 
+<!-- exploit-development:start -->
 ## exploit development
 
-Proof-of-concept exploits for public exploits — [galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)
+**105 reproduced exploits** across 93 products — every entry was actually run against the affected version, never copied from a writeup. 69 ship a runnable PoC; 39 are CVSS-critical.
 
-| CVE | Target | Class |
-|-----|--------|-------|
-| CVE-2025-55182 | Next.js | RCE |
-| CVE-2025-47812 | Wing FTP Server | RCE |
-| CVE-2025-60787 | motionEye | RCE |
-| CVE-2024-4367 | PDF.js | RCE |
-| CVE-2024-3660 | TensorFlow | RCE |
-| CVE-2026-23744 | MCPJam Inspector | RCE |
-| CVE-2025-57819 | FreePBX | SQL Injection |
-| CVE-2025-24799 | GLPI | SQL Injection |
-| CVE-2024-51482 | ZoneMinder | SQL Injection |
-| CVE-2025-0133 | GlobalProtect | Reflected XSS |
-| CVE-2025-59474 | Jenkins | Info Disclosure |
-| CVE-2025-4517 | CPython | Path Traversal |
-| CVE-2025-61678 | FreePBX | Path Traversal |
-| CVE-2023-44487 | HTTP/2 Rapid Reset | DoS |
-| + more | Keycloak, HTTP/2 | XSS · SSRF · DoS |
+→ **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
+
+`2026` 9 · `2025` 23 · `≤2024` 73&nbsp;&nbsp;|&nbsp;&nbsp;RCE 52 · LPE 14 · Auth Bypass 9 · Path Traversal 6 · SQL Injection 6 · Info Disclosure 3
+
+### 2026
+
+| CVE | Target | Class | CVSS |
+| :--- | :--- | :--- | :--- |
+| [CVE-2026-29000](https://github.com/galletitaconpate/verified-exploits/tree/main/pac4j/AuthBypass%20-%20CVE-2026-29000) | pac4j | Auth Bypass | **10.0** |
+| [CVE-2026-23744](https://github.com/galletitaconpate/verified-exploits/tree/main/MCPJam%20Inspector/RCE%20-%20CVE-2026-23744) | MCPJam Inspector | RCE | **9.8** |
+| [CVE-2026-27944](https://github.com/galletitaconpate/verified-exploits/tree/main/Nginx-UI/AuthBypass%20-%20CVE-2026-27944) | Nginx-UI | Auth Bypass | **9.8** |
+| [CVE-2026-33017](https://github.com/galletitaconpate/verified-exploits/tree/main/Langflow/RCE%20-%20CVE-2026-33017) | Langflow | RCE | **9.8** |
+| [CVE-2026-33937](https://github.com/galletitaconpate/verified-exploits/tree/main/Handlebars.js/RCE%20-%20CVE-2026-33937) | Handlebars.js | RCE | **9.8** |
+| [CVE-2026-63030](https://github.com/galletitaconpate/verified-exploits/tree/main/WordPress/SQLi%20-%20CVE-2026-63030) | WordPress | SQL Injection | **9.8** |
+| [CVE-2026-4480](https://github.com/galletitaconpate/verified-exploits/tree/main/Samba/RCE%20-%20CVE-2026-4480) | Samba | RCE | **9.0** |
+| [CVE-2026-26231](https://github.com/galletitaconpate/verified-exploits/tree/main/Gitea/AuthBypass%20-%20CVE-2026-26231) | Gitea | Auth Bypass | 8.5 |
+| [CVE-2026-3888](https://github.com/galletitaconpate/verified-exploits/tree/main/snapd/LPE%20-%20CVE-2026-3888) | snapd | LPE | 7.8 |
+
+### 2025 · top 10 of 23
+
+| CVE | Target | Class | CVSS |
+| :--- | :--- | :--- | :--- |
+| [CVE-2025-32433](https://github.com/galletitaconpate/verified-exploits/tree/main/Erlang%20OTP%20SSH/RCE%20-%20CVE-2025-32433) | Erlang OTP SSH | RCE | **10.0** |
+| [CVE-2025-47812](https://github.com/galletitaconpate/verified-exploits/tree/main/Wing%20FTP%20Server/RCE%20-%20CVE-2025-47812) | Wing FTP Server | RCE | **10.0** |
+| [CVE-2025-55182](https://github.com/galletitaconpate/verified-exploits/tree/main/Next.js/RCE%20-%20CVE-2025-55182) | Next.js | RCE | **10.0** |
+| [CVE-2025-49113](https://github.com/galletitaconpate/verified-exploits/tree/main/Roundcube%20Webmail/RCE%20-%20CVE-2025-49113) | Roundcube Webmail | RCE | **9.9** |
+| [CVE-2025-24893](https://github.com/galletitaconpate/verified-exploits/tree/main/XWiki%20Platform/RCE%20-%20CVE-2025-24893) | XWiki Platform | RCE | **9.8** |
+| [CVE-2025-31161](https://github.com/galletitaconpate/verified-exploits/tree/main/CrushFTP/AuthBypass%20-%20CVE-2025-31161) | CrushFTP | Auth Bypass | **9.8** |
+| [CVE-2025-57819](https://github.com/galletitaconpate/verified-exploits/tree/main/FreePBX/SQLi%20-%20CVE-2025-57819) | FreePBX | SQL Injection | **9.8** |
+| [CVE-2025-2304](https://github.com/galletitaconpate/verified-exploits/tree/main/Camaleon%20CMS/AuthBypass%20-%20CVE-2025-2304) | Camaleon CMS | Auth Bypass | **9.4** |
+| [CVE-2025-4517](https://github.com/galletitaconpate/verified-exploits/tree/main/CPython/PathTraversal%20-%20CVE-2025-4517) | CPython | Path Traversal | **9.4** |
+| [CVE-2025-9074](https://github.com/galletitaconpate/verified-exploits/tree/main/Docker%20Desktop/SSRF%20-%20CVE-2025-9074) | Docker Desktop | SSRF | **9.3** |
+
+<details>
+<summary><b>full archive — 86 more</b> (2025 remainder and earlier)</summary>
+
+| CVE | Target | Class | CVSS |
+| :--- | :--- | :--- | :--- |
+| [CVE-2025-24367](https://github.com/galletitaconpate/verified-exploits/tree/main/Cacti/RCE%20-%20CVE-2025-24367) | Cacti | RCE | 8.8 |
+| [CVE-2025-69212](https://github.com/galletitaconpate/verified-exploits/tree/main/OpenSTAManager/RCE%20-%20CVE-2025-69212) | OpenSTAManager | RCE | 8.8 |
+| [CVE-2025-64512](https://github.com/galletitaconpate/verified-exploits/tree/main/pdfminer.six/RCE%20-%20CVE-2025-64512) | pdfminer.six | RCE | 8.6 |
+| [CVE-2025-27591](https://github.com/galletitaconpate/verified-exploits/tree/main/below/LPE%20-%20CVE-2025-27591) | below | LPE | 7.8 |
+| [CVE-2025-59341](https://github.com/galletitaconpate/verified-exploits/tree/main/esm.sh/LFI%20-%20CVE-2025-59341) | esm.sh | LFI | 7.7 |
+| [CVE-2025-24071](https://github.com/galletitaconpate/verified-exploits/tree/main/Microsoft%20Windows%20File%20Explorer/AuthBypass%20-%20CVE-2025-24071) | Microsoft Windows File Explorer | Auth Bypass | 7.5 |
+| [CVE-2025-24799](https://github.com/galletitaconpate/verified-exploits/tree/main/GLPI/SQLi%20-%20CVE-2025-24799) | GLPI | SQL Injection | 7.5 |
+| [CVE-2025-60787](https://github.com/galletitaconpate/verified-exploits/tree/main/motionEye/RCE%20-%20CVE-2025-60787) | motionEye | RCE | 7.2 |
+| [CVE-2025-0133](https://github.com/galletitaconpate/verified-exploits/tree/main/GlobalProtect/RXSS%20-%20CVE-2025-0133) | GlobalProtect | Reflected XSS | 6.9 |
+| [CVE-2025-64714](https://github.com/galletitaconpate/verified-exploits/tree/main/PrivateBin/LFI%20-%20CVE-2025-64714) | PrivateBin | LFI | 5.8 |
+| [CVE-2025-59474](https://github.com/galletitaconpate/verified-exploits/tree/main/Jenkins/CWE200%20-%20CVE-2025-59474) | Jenkins | Info Disclosure | 5.3 |
+| [CVE-2025-32462](https://github.com/galletitaconpate/verified-exploits/tree/main/sudo/LPE%20-%20CVE-2025-32462) | sudo | LPE | 2.8 |
+| [CVE-2025-61678](https://github.com/galletitaconpate/verified-exploits/tree/main/FreePBX/PathTraversal%20-%20CVE-2025-61678) | FreePBX | Path Traversal | — |
+| [CVE-2024-51482](https://github.com/galletitaconpate/verified-exploits/tree/main/ZoneMinder/SQLi%20-%20CVE-2024-51482) | ZoneMinder | SQL Injection | **9.9** |
+| [CVE-2024-9264](https://github.com/galletitaconpate/verified-exploits/tree/main/Grafana/RCE%20-%20CVE-2024-9264) | Grafana | RCE | **9.9** |
+| [CVE-2024-3660](https://github.com/galletitaconpate/verified-exploits/tree/main/TensorFlow/RCE%20-%20CVE-2024-3660) | TensorFlow | RCE | **9.8** |
+| [CVE-2024-53677](https://github.com/galletitaconpate/verified-exploits/tree/main/Apache%20Struts2/PathTraversal%20-%20CVE-2024-53677) | Apache Struts2 | Path Traversal | **9.8** |
+| [CVE-2024-34070](https://github.com/galletitaconpate/verified-exploits/tree/main/Froxlor/RXSS%20-%20CVE-2024-34070) | Froxlor | Reflected XSS | **9.6** |
+| [CVE-2024-23346](https://github.com/galletitaconpate/verified-exploits/tree/main/pymatgen/RCE%20-%20CVE-2024-23346) | pymatgen | RCE | **9.3** |
+| [CVE-2024-28397](https://github.com/galletitaconpate/verified-exploits/tree/main/js2py/RCE%20-%20CVE-2024-28397) | js2py | RCE | 8.8 |
+| [CVE-2024-4367](https://github.com/galletitaconpate/verified-exploits/tree/main/PDF.js/RCE%20-%20CVE-2024-4367) | PDF.js | RCE | 8.8 |
+| [CVE-2024-48990](https://github.com/galletitaconpate/verified-exploits/tree/main/needrestart/LPE%20-%20CVE-2024-48990) | needrestart | LPE | 7.8 |
+| [CVE-2024-49019](https://github.com/galletitaconpate/verified-exploits/tree/main/Microsoft%20AD%20CS/PrivEsc%20-%20CVE-2024-49019) | Microsoft AD CS | Priv Esc | 7.8 |
+| [CVE-2024-41817](https://github.com/galletitaconpate/verified-exploits/tree/main/ImageMagick/RCE%20-%20CVE-2024-41817) | ImageMagick | RCE | 7.0 |
+| [CVE-2024-23334](https://github.com/galletitaconpate/verified-exploits/tree/main/aiohttp/PathTraversal%20-%20CVE-2024-23334) | aiohttp | Path Traversal | 5.9 |
+| [CVE-2024-47176](https://github.com/galletitaconpate/verified-exploits/tree/main/CUPS/RCE%20-%20CVE-2024-47176) | CUPS | RCE | 5.3 |
+| [CVE-2023-46604](https://github.com/galletitaconpate/verified-exploits/tree/main/Apache%20ActiveMQ/RCE%20-%20CVE-2023-46604) | Apache ActiveMQ | RCE | **10.0** |
+| [CVE-2023-30547](https://github.com/galletitaconpate/verified-exploits/tree/main/vm2/RCE%20-%20CVE-2023-30547) | vm2 | RCE | **9.8** |
+| [CVE-2023-3452](https://github.com/galletitaconpate/verified-exploits/tree/main/WordPress%20Canto%20Plugin/RFI%20-%20CVE-2023-3452) | WordPress Canto Plugin | RFI | **9.8** |
+| [CVE-2023-38646](https://github.com/galletitaconpate/verified-exploits/tree/main/Metabase/RCE%20-%20CVE-2023-38646) | Metabase | RCE | **9.8** |
+| [CVE-2023-42793](https://github.com/galletitaconpate/verified-exploits/tree/main/JetBrains%20TeamCity/AuthBypass%20-%20CVE-2023-42793) | JetBrains TeamCity | Auth Bypass | **9.8** |
+| [CVE-2023-51467](https://github.com/galletitaconpate/verified-exploits/tree/main/Apache%20OFBiz/RCE%20-%20CVE-2023-51467) | Apache OFBiz | RCE | **9.8** |
+| [CVE-2023-30253](https://github.com/galletitaconpate/verified-exploits/tree/main/Dolibarr/RCE%20-%20CVE-2023-30253) | Dolibarr | RCE | 8.8 |
+| [CVE-2023-50564](https://github.com/galletitaconpate/verified-exploits/tree/main/Pluck/RCE%20-%20CVE-2023-50564) | Pluck | RCE | 8.8 |
+| [CVE-2023-4220](https://github.com/galletitaconpate/verified-exploits/tree/main/Chamilo%20LMS/RCE%20-%20CVE-2023-4220) | Chamilo LMS | RCE | 8.1 |
+| [CVE-2023-0386](https://github.com/galletitaconpate/verified-exploits/tree/main/Linux%20Kernel/LPE%20-%20CVE-2023-0386) | Linux Kernel | LPE | 7.8 |
+| [CVE-2023-49147](https://github.com/galletitaconpate/verified-exploits/tree/main/PDF24%20Creator/LPE%20-%20CVE-2023-49147) | PDF24 Creator | LPE | 7.8 |
+| [CVE-2023-1326](https://github.com/galletitaconpate/verified-exploits/tree/main/apport/LPE%20-%20CVE-2023-1326) | apport | LPE | 7.7 |
+| [CVE-2023-24249](https://github.com/galletitaconpate/verified-exploits/tree/main/laravel-admin/RCE%20-%20CVE-2023-24249) | laravel-admin | RCE | 7.2 |
+| [CVE-2023-46818](https://github.com/galletitaconpate/verified-exploits/tree/main/ISPConfig/RCE%20-%20CVE-2023-46818) | ISPConfig | RCE | 7.2 |
+| [CVE-2023-41425](https://github.com/galletitaconpate/verified-exploits/tree/main/WonderCMS/RCE%20-%20CVE-2023-41425) | WonderCMS | RCE | 6.1 |
+| [CVE-2023-20052](https://github.com/galletitaconpate/verified-exploits/tree/main/ClamAV/XXE%20-%20CVE-2023-20052) | ClamAV | XXE | 5.3 |
+| [CVE-2023-23752](https://github.com/galletitaconpate/verified-exploits/tree/main/Joomla/AuthBypass%20-%20CVE-2023-23752) | Joomla | Auth Bypass | 5.3 |
+| [CVE-2023-44487](https://github.com/galletitaconpate/verified-exploits/tree/main/CVE-2023-44487) | HTTP/2 | DoS | 5.3 |
+| [CVE-2023-40028](https://github.com/galletitaconpate/verified-exploits/tree/main/Ghost%20CMS/PathTraversal%20-%20CVE-2023-40028) | Ghost CMS | Path Traversal | 4.9 |
+| [CVE-2022-0944](https://github.com/galletitaconpate/verified-exploits/tree/main/SQLPad/SSTI%20-%20CVE-2022-0944) | SQLPad | SSTI | **9.1** |
+| [CVE-2022-24439](https://github.com/galletitaconpate/verified-exploits/tree/main/GitPython/RCE%20-%20CVE-2022-24439) | GitPython | RCE | 8.1 |
+| [CVE-2022-0847](https://github.com/galletitaconpate/verified-exploits/tree/main/Linux%20Kernel/CWE665%20-%20CVE-2022-0847) | Linux Kernel | Improper Init | 7.8 |
+| [CVE-2022-37706](https://github.com/galletitaconpate/verified-exploits/tree/main/Enlightenment/LPE%20-%20CVE-2022-37706) | Enlightenment | LPE | 7.8 |
+| [CVE-2021-44967](https://github.com/galletitaconpate/verified-exploits/tree/main/LimeSurvey/RCE%20-%20CVE-2021-44967) | LimeSurvey | RCE | 8.8 |
+| [CVE-2021-3493](https://github.com/galletitaconpate/verified-exploits/tree/main/Linux%20Kernel/LPE%20-%20CVE-2021-3493) | Linux Kernel | LPE | 7.8 |
+| [CVE-2021-4034](https://github.com/galletitaconpate/verified-exploits/tree/main/polkit/LPE%20-%20CVE-2021-4034) | polkit | LPE | 7.8 |
+| [CVE-2021-43798](https://github.com/galletitaconpate/verified-exploits/tree/main/Grafana/PathTraversal%20-%20CVE-2021-43798) | Grafana | Path Traversal | 7.5 |
+| [CVE-2021-20323](https://github.com/galletitaconpate/verified-exploits/tree/main/Keycloak/RXSS%20-%20CVE-2021-20323) | Keycloak | Reflected XSS | 6.1 |
+| [CVE-2020-5752](https://github.com/galletitaconpate/verified-exploits/tree/main/Druva%20inSync/LPE%20-%20CVE-2020-5752) | Druva inSync | LPE | 7.8 |
+| [CVE-2020-27838](https://github.com/galletitaconpate/verified-exploits/tree/main/Keycloak/CWE200%20-%20CVE-2020-27838) | Keycloak | Info Disclosure | 6.5 |
+| [CVE-2020-35572](https://github.com/galletitaconpate/verified-exploits/tree/main/Adminer/FileRead%20-%20CVE-2020-35572) | Adminer | File Read | 6.1 |
+| [CVE-2020-10770](https://github.com/galletitaconpate/verified-exploits/tree/main/Keycloak/SSRF%20-%20CVE-2020-10770) | Keycloak | SSRF | 5.3 |
+| [CVE-2019-15107](https://github.com/galletitaconpate/verified-exploits/tree/main/Webmin/RCE%20-%20CVE-2019-15107) | Webmin | RCE | **9.8** |
+| [CVE-2019-16278](https://github.com/galletitaconpate/verified-exploits/tree/main/Nostromo%20%28nhttpd%29/RCE%20-%20CVE-2019-16278) | Nostromo (nhttpd) | RCE | **9.8** |
+| [CVE-2019-25065](https://github.com/galletitaconpate/verified-exploits/tree/main/OpenNetAdmin/RCE%20-%20CVE-2019-25065) | OpenNetAdmin | RCE | **9.8** |
+| [CVE-2019-12840](https://github.com/galletitaconpate/verified-exploits/tree/main/Webmin/RCE%20-%20CVE-2019-12840) | Webmin | RCE | 8.8 |
+| [CVE-2019-14287](https://github.com/galletitaconpate/verified-exploits/tree/main/sudo/AuthBypass%20-%20CVE-2019-14287) | sudo | Auth Bypass | 8.8 |
+| [CVE-2019-16113](https://github.com/galletitaconpate/verified-exploits/tree/main/Bludit/RCE%20-%20CVE-2019-16113) | Bludit | RCE | 8.8 |
+| [CVE-2019-9053](https://github.com/galletitaconpate/verified-exploits/tree/main/CMS%20Made%20Simple/SQLi%20-%20CVE-2019-9053) | CMS Made Simple | SQL Injection | 8.1 |
+| [CVE-2018-7600](https://github.com/galletitaconpate/verified-exploits/tree/main/Drupal/RCE%20-%20CVE-2018-7600) | Drupal | RCE | **9.8** |
+| [CVE-2018-15133](https://github.com/galletitaconpate/verified-exploits/tree/main/Laravel/RCE%20-%20CVE-2018-15133) | Laravel | RCE | 8.1 |
+| [CVE-2018-9276](https://github.com/galletitaconpate/verified-exploits/tree/main/Paessler%20PRTG%20Network%20Monitor/RCE%20-%20CVE-2018-9276) | Paessler PRTG Network Monitor | RCE | 7.2 |
+| [CVE-2017-7269](https://github.com/galletitaconpate/verified-exploits/tree/main/Microsoft%20IIS/RCE%20-%20CVE-2017-7269) | Microsoft IIS | RCE | **9.8** |
+| [CVE-2017-0144](https://github.com/galletitaconpate/verified-exploits/tree/main/Microsoft%20Windows%20SMBv1/RCE%20-%20CVE-2017-0144) | Microsoft Windows SMBv1 | RCE | 8.1 |
+| [CVE-2017-16995](https://github.com/galletitaconpate/verified-exploits/tree/main/Linux%20Kernel/LPE%20-%20CVE-2017-16995) | Linux Kernel | LPE | 7.8 |
+| [CVE-2016-0099](https://github.com/galletitaconpate/verified-exploits/tree/main/Microsoft%20Windows%20Secondary%20Logon/LPE%20-%20CVE-2016-0099) | Microsoft Windows Secondary Logon | LPE | 7.8 |
+| [CVE-2015-1397](https://github.com/galletitaconpate/verified-exploits/tree/main/Magento/SQLi%20-%20CVE-2015-1397) | Magento | SQL Injection | `Medium` |
+| [CVE-2015-1398](https://github.com/galletitaconpate/verified-exploits/tree/main/Magento/RCE%20-%20CVE-2015-1398) | Magento | RCE | `Medium` |
+| [CVE-2015-6967](https://github.com/galletitaconpate/verified-exploits/tree/main/Nibbleblog/RCE%20-%20CVE-2015-6967) | Nibbleblog | RCE | `Medium` |
+| [CVE-2014-6271](https://github.com/galletitaconpate/verified-exploits/tree/main/GNU%20Bash/RCE%20-%20CVE-2014-6271) | GNU Bash | RCE | **9.8** |
+| [CVE-2014-6287](https://github.com/galletitaconpate/verified-exploits/tree/main/HFS%20%28HttpFileServer%29/RCE%20-%20CVE-2014-6287) | HFS (HttpFileServer) | RCE | **9.8** |
+| [CVE-2014-0160](https://github.com/galletitaconpate/verified-exploits/tree/main/OpenSSL/InfoDisclosure%20-%20CVE-2014-0160) | OpenSSL | Info Disclosure | 7.5 |
+| [CVE-2011-2523](https://github.com/galletitaconpate/verified-exploits/tree/main/vsftpd/RCE%20-%20CVE-2011-2523) | vsftpd | RCE | **9.8** |
+| [CVE-2011-1249](https://github.com/galletitaconpate/verified-exploits/tree/main/Microsoft%20Windows%20AFD/LPE%20-%20CVE-2011-1249) | Microsoft Windows AFD | LPE | `High` |
+| [CVE-2010-2075](https://github.com/galletitaconpate/verified-exploits/tree/main/UnrealIRCd/RCE%20-%20CVE-2010-2075) | UnrealIRCd | RCE | `High` |
+| [CVE-2009-2265](https://github.com/galletitaconpate/verified-exploits/tree/main/Adobe%20ColdFusion/RCE%20-%20CVE-2009-2265) | Adobe ColdFusion | RCE | `High` |
+| [CVE-2008-4250](https://github.com/galletitaconpate/verified-exploits/tree/main/Microsoft%20Windows%20Server%20Service/RCE%20-%20CVE-2008-4250) | Microsoft Windows Server Service | RCE | **9.8** |
+| [CVE-2007-2447](https://github.com/galletitaconpate/verified-exploits/tree/main/Samba/RCE%20-%20CVE-2007-2447) | Samba | RCE | `Medium` |
+| [ADV190005](https://github.com/galletitaconpate/verified-exploits/tree/main/ADV190005) | HTTP/2 | DoS | 7.5 |
+| [ADV20210328-PHP-GIT-BACKDOOR](https://github.com/galletitaconpate/verified-exploits/tree/main/PHP/RCE%20-%20ADV20210328-PHP-GIT-BACKDOOR) | PHP | RCE | — |
+
+</details>
+
+<!-- exploit-development:end -->
 
 ---
 
