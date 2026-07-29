@@ -57,7 +57,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 
 ## exploit development
 
-Proof-of-concept exploits for public CVEs — [galletitaconpate/CVEs](https://github.com/galletitaconpate/CVEs)
+Proof-of-concept exploits for public exploits — [galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)
 
 | CVE | Target | Class |
 |-----|--------|-------|
