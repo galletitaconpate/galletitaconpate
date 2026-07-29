@@ -38,20 +38,25 @@ Offensive security practitioner specializing in complex vulnerability research a
 
 ---
 
+<!-- bug-bounty:start -->
 ## bug bounty
 
 | Platform | Stats |
 |----------|-------|
-| **HackerOne** · `galletitaconpate` | 🎯 Signal **7.0** (95th pct) · Impact **21.0** (90th pct) · **426** rep · **25** vulns |
+| **HackerOne** · [`galletitaconpate`](https://hackerone.com/galletitaconpate) | 🎯 Signal **7.0** (95th pct) · Impact **21.0** (90th pct) · **421** rep · **28** credited · **12** thanks |
 | **CyScope** · `r4zk3r` | 🏆 Rank **#7** · **638 pts** · **57 vulns** · **78%** accuracy · avg severity **6.59** |
 
 ### 🛡️ Security Research & Disclosures
 
-| ID | Target | Type | Advisory / Links |
-| :--- | :--- | :--- | :--- |
-| **GHSA-j4rw-3r36-79pm** | DefectDojo | Missing Authorization on Questionnaire Relink Allows Cross-Product Access to Questionnaire Responses | [GitHub Advisory](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-j4rw-3r36-79pm) |
-| **GHSA-43f3-w9fq-8v5j** | DefectDojo | Improper Authorization Allows Account Takeover by a Delegated User Manager | [GitHub Advisory](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-43f3-w9fq-8v5j) |
-| **GHSA-7w4m-r6wp-2c5r** | DefectDojo | Cross-Product Authorization Gaps in the V3 Locations Feature Allow an Authenticated User to Access and Modify Other Products' Location/Endpoint Data | [GitHub Advisory](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-7w4m-r6wp-2c5r) |
+*3 advisories · 2 sole credit · 1 co-credited.*
+
+| ID | Target | Severity | Fixed in | Finding |
+| :--- | :--- | :--- | :--- | :--- |
+| [GHSA-j4rw-3r36-79pm](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-j4rw-3r36-79pm) | DefectDojo | Moderate 5.4 | `3.1.100` | Missing authorization on questionnaire relink allows cross-product access to questionnaire responses |
+| [GHSA-43f3-w9fq-8v5j](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-43f3-w9fq-8v5j) | DefectDojo | Moderate 6.5 | `3.1.300` | Improper authorization allows account takeover by a delegated user manager |
+| [GHSA-7w4m-r6wp-2c5r](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-7w4m-r6wp-2c5r) | DefectDojo | Moderate 6.3 | `3.1.300` | Cross-product authorization gaps in the V3 Locations feature allow access to other products' location and endpoint data *(co-credited, 7 reporters)* |
+
+<!-- bug-bounty:end -->
 
 ---
 
@@ -191,20 +196,35 @@ Offensive security practitioner specializing in complex vulnerability research a
 
 ---
 
+<!-- certifications:start -->
 ## certifications
 
 | Badge | Name | Status |
 |-------|------|--------|
-| 🟩 CJCA | HTB Certified Junior Cybersecurity Associate | ✅ July 2026 |
-| 🟩 CPTS | HTB Certified Penetration Testing Specialist | ✅ July 2026 |
-| 🟩 CWES | HTB Certified Web Exploitation Specialist | ✅ Dec 2025 |
-| 🟧 CDSA | HTB Certified Defensive Security Analyst | 🔄 100% |
-| 🟦 CWEE | HTB Certified Web Exploitation Expert | 🔄 19.2% |
-| 🟦 CAPE | HTB Active Directory Penetration Tester | 🔄 14.2% |
-| 🟦 CWPE | HTB Wi-Fi Penetration Tester | 🔄 34.1% |
-| 🟩 COAE | HTB Certified Offensive AI Expert | ✅ June 2026 |
+| 🟩 CPTS | [HTB Certified Penetration Testing Specialist](https://academy.hackthebox.com/achievement/badge/34f5ae2f-8b59-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
+| 🟩 CJCA | [HTB Certified Junior Cybersecurity Associate](https://academy.hackthebox.com/achievement/badge/e5289ccc-8698-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
+| 🟩 COAE | [HTB Certified Offensive AI Expert](https://academy.hackthebox.com/achievement/badge/5f61e864-73aa-11f1-82d1-bea50ffe6cb4) | ✅ June 2026 |
+| 🟩 CWES | [HTB Certified Web Exploitation Specialist](https://academy.hackthebox.com/achievement/badge/be48e831-d1cd-11f0-9254-bea50ffe6cb4) | ✅ December 2025 |
+| 🟩 CEHv12 | Certified Ethical Hacker (CEH v12) | ✅ December 2023 |
+| 🟩 eWPT | Web Application Penetration Tester | ✅ February 2022 |
+| 🟩 CS50-AI | CS50 Introduction to AI with Python | ✅ February 2022 |
+| 🟩 PY-RESEARCH | Using Python for Research | ✅ February 2022 |
+| 🟩 CYBERCRIME | Expert in Cybercrime and Cybersecurity Investigation | ✅ July 2022 |
 | 🟩 eJPT | Junior Penetration Tester | ✅ May 2021 |
-| 🟩 eWPT | Web application Penetration Tester | ✅ Feb 2022 |
+| 🟩 BURP-ADV | Advanced Burp Suite | ✅ November 2019 |
+| 🟩 PY-ADV | Advanced Python | ✅ February 2019 |
+| 🟩 QA-TESTER | Software Tester QA | ✅ June 2018 |
+| 🟩 EH-PENTEST | Ethical Hacking and Pentesting | ✅ June 2018 |
+| 🧪 Dante | HTB Pro Lab | ✅ June 2026 |
+| 🧪 P.O.O. | HTB Pro Lab | ✅ June 2026 |
+| 🧪 Mythical | HTB Pro Lab | ✅ June 2026 |
+| 🧪 Unintended | HTB Pro Lab | ✅ Completed |
+| 🟦 CWPE | HTB Wi-Fi Penetration Tester | 🔄 34.1% |
+| 🟦 CWEE | HTB Certified Web Exploitation Expert | 🔄 19.2% |
+| 🟦 CAPE | HTB Certified Active Directory Pentesting Expert | 🔄 14.2% |
+
+<!-- certifications:end -->
+
 ---
 
 ## stack
