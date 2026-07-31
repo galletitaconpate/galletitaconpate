@@ -63,11 +63,11 @@ Offensive security practitioner specializing in complex vulnerability research a
 <!-- exploit-development:start -->
 ## exploit development
 
-**110 reproduced exploits** across 97 products — every entry was actually run against the affected version, never copied from a writeup. 73 ship a runnable PoC; 39 are CVSS-critical.
+**111 reproduced exploits** across 98 products — every entry was actually run against the affected version, never copied from a writeup. 74 ship a runnable PoC; 40 are CVSS-critical.
 
 → **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
 
-`2026` 9 · `2025` 23 · `≤2024` 78&nbsp;&nbsp;|&nbsp;&nbsp;RCE 52 · LPE 15 · Auth Bypass 9 · Path Traversal 7 · SQL Injection 6 · Info Disclosure 4
+`2026` 9 · `2025` 23 · `≤2024` 79&nbsp;&nbsp;|&nbsp;&nbsp;RCE 53 · LPE 15 · Auth Bypass 9 · Path Traversal 7 · SQL Injection 6 · Info Disclosure 4
 
 ### 2026
 
@@ -99,7 +99,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2025-9074](https://github.com/galletitaconpate/verified-exploits/tree/main/Docker%20Desktop/SSRF%20-%20CVE-2025-9074) | Docker Desktop | SSRF | **9.3** |
 
 <details>
-<summary><b>full archive — 91 more</b> (2025 remainder and earlier)</summary>
+<summary><b>full archive — 92 more</b> (2025 remainder and earlier)</summary>
 
 | CVE | Target | Class | CVSS |
 | :--- | :--- | :--- | :--- |
@@ -130,6 +130,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2024-23334](https://github.com/galletitaconpate/verified-exploits/tree/main/aiohttp/PathTraversal%20-%20CVE-2024-23334) | aiohttp | Path Traversal | 5.9 |
 | [CVE-2024-47176](https://github.com/galletitaconpate/verified-exploits/tree/main/CUPS/RCE%20-%20CVE-2024-47176) | CUPS | RCE | 5.3 |
 | [CVE-2023-46604](https://github.com/galletitaconpate/verified-exploits/tree/main/Apache%20ActiveMQ/RCE%20-%20CVE-2023-46604) | Apache ActiveMQ | RCE | **10.0** |
+| [CVE-2023-0297](https://github.com/galletitaconpate/verified-exploits/tree/main/pyLoad/RCE%20-%20CVE-2023-0297) | pyLoad | RCE | **9.8** |
 | [CVE-2023-30547](https://github.com/galletitaconpate/verified-exploits/tree/main/vm2/RCE%20-%20CVE-2023-30547) | vm2 | RCE | **9.8** |
 | [CVE-2023-3452](https://github.com/galletitaconpate/verified-exploits/tree/main/WordPress%20Canto%20Plugin/RFI%20-%20CVE-2023-3452) | WordPress Canto Plugin | RFI | **9.8** |
 | [CVE-2023-38646](https://github.com/galletitaconpate/verified-exploits/tree/main/Metabase/RCE%20-%20CVE-2023-38646) | Metabase | RCE | **9.8** |
