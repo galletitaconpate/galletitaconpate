@@ -63,11 +63,11 @@ Offensive security practitioner specializing in complex vulnerability research a
 <!-- exploit-development:start -->
 ## exploit development
 
-**106 reproduced exploits** across 94 products — every entry was actually run against the affected version, never copied from a writeup. 70 ship a runnable PoC; 39 are CVSS-critical.
+**107 reproduced exploits** across 95 products — every entry was actually run against the affected version, never copied from a writeup. 70 ship a runnable PoC; 39 are CVSS-critical.
 
 → **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
 
-`2026` 9 · `2025` 23 · `≤2024` 74&nbsp;&nbsp;|&nbsp;&nbsp;RCE 52 · LPE 14 · Auth Bypass 9 · Path Traversal 6 · SQL Injection 6 · Info Disclosure 4
+`2026` 9 · `2025` 23 · `≤2024` 75&nbsp;&nbsp;|&nbsp;&nbsp;RCE 52 · LPE 14 · Auth Bypass 9 · Path Traversal 6 · SQL Injection 6 · Info Disclosure 4
 
 ### 2026
 
@@ -99,7 +99,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2025-9074](https://github.com/galletitaconpate/verified-exploits/tree/main/Docker%20Desktop/SSRF%20-%20CVE-2025-9074) | Docker Desktop | SSRF | **9.3** |
 
 <details>
-<summary><b>full archive — 87 more</b> (2025 remainder and earlier)</summary>
+<summary><b>full archive — 88 more</b> (2025 remainder and earlier)</summary>
 
 | CVE | Target | Class | CVSS |
 | :--- | :--- | :--- | :--- |
@@ -143,6 +143,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2023-1326](https://github.com/galletitaconpate/verified-exploits/tree/main/apport/LPE%20-%20CVE-2023-1326) | apport | LPE | 7.7 |
 | [CVE-2023-24249](https://github.com/galletitaconpate/verified-exploits/tree/main/laravel-admin/RCE%20-%20CVE-2023-24249) | laravel-admin | RCE | 7.2 |
 | [CVE-2023-46818](https://github.com/galletitaconpate/verified-exploits/tree/main/ISPConfig/RCE%20-%20CVE-2023-46818) | ISPConfig | RCE | 7.2 |
+| [CVE-2023-27163](https://github.com/galletitaconpate/verified-exploits/tree/main/request-baskets/SSRF%20-%20CVE-2023-27163) | request-baskets | SSRF | 6.5 |
 | [CVE-2023-41425](https://github.com/galletitaconpate/verified-exploits/tree/main/WonderCMS/RCE%20-%20CVE-2023-41425) | WonderCMS | RCE | 6.1 |
 | [CVE-2023-20052](https://github.com/galletitaconpate/verified-exploits/tree/main/ClamAV/XXE%20-%20CVE-2023-20052) | ClamAV | XXE | 5.3 |
 | [CVE-2023-23752](https://github.com/galletitaconpate/verified-exploits/tree/main/Joomla/AuthBypass%20-%20CVE-2023-23752) | Joomla | Auth Bypass | 5.3 |
