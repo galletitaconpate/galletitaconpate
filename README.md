@@ -63,11 +63,11 @@ Offensive security practitioner specializing in complex vulnerability research a
 <!-- exploit-development:start -->
 ## exploit development
 
-**113 reproduced exploits** across 99 products — every entry was actually run against the affected version, never copied from a writeup. 76 ship a runnable PoC; 40 are CVSS-critical.
+**114 reproduced exploits** across 100 products — every entry was actually run against the affected version, never copied from a writeup. 77 ship a runnable PoC; 41 are CVSS-critical.
 
 → **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
 
-`2026` 9 · `2025` 23 · `≤2024` 81&nbsp;&nbsp;|&nbsp;&nbsp;RCE 54 · LPE 16 · Auth Bypass 9 · Path Traversal 7 · SQL Injection 6 · Info Disclosure 4
+`2026` 9 · `2025` 23 · `≤2024` 82&nbsp;&nbsp;|&nbsp;&nbsp;RCE 55 · LPE 16 · Auth Bypass 9 · Path Traversal 7 · SQL Injection 6 · Info Disclosure 4
 
 ### 2026
 
@@ -99,7 +99,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2025-9074](https://github.com/galletitaconpate/verified-exploits/tree/main/Docker%20Desktop/SSRF%20-%20CVE-2025-9074) | Docker Desktop | SSRF | **9.3** |
 
 <details>
-<summary><b>full archive — 94 more</b> (2025 remainder and earlier)</summary>
+<summary><b>full archive — 95 more</b> (2025 remainder and earlier)</summary>
 
 | CVE | Target | Class | CVSS |
 | :--- | :--- | :--- | :--- |
@@ -135,6 +135,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2023-3452](https://github.com/galletitaconpate/verified-exploits/tree/main/WordPress%20Canto%20Plugin/RFI%20-%20CVE-2023-3452) | WordPress Canto Plugin | RFI | **9.8** |
 | [CVE-2023-38646](https://github.com/galletitaconpate/verified-exploits/tree/main/Metabase/RCE%20-%20CVE-2023-38646) | Metabase | RCE | **9.8** |
 | [CVE-2023-42793](https://github.com/galletitaconpate/verified-exploits/tree/main/JetBrains%20TeamCity/AuthBypass%20-%20CVE-2023-42793) | JetBrains TeamCity | Auth Bypass | **9.8** |
+| [CVE-2023-43364](https://github.com/galletitaconpate/verified-exploits/tree/main/Searchor/RCE%20-%20CVE-2023-43364) | Searchor | RCE | **9.8** |
 | [CVE-2023-51467](https://github.com/galletitaconpate/verified-exploits/tree/main/Apache%20OFBiz/RCE%20-%20CVE-2023-51467) | Apache OFBiz | RCE | **9.8** |
 | [CVE-2023-30253](https://github.com/galletitaconpate/verified-exploits/tree/main/Dolibarr/RCE%20-%20CVE-2023-30253) | Dolibarr | RCE | 8.8 |
 | [CVE-2023-50564](https://github.com/galletitaconpate/verified-exploits/tree/main/Pluck/RCE%20-%20CVE-2023-50564) | Pluck | RCE | 8.8 |
