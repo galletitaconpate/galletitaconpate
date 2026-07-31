@@ -63,11 +63,11 @@ Offensive security practitioner specializing in complex vulnerability research a
 <!-- exploit-development:start -->
 ## exploit development
 
-**111 reproduced exploits** across 98 products — every entry was actually run against the affected version, never copied from a writeup. 74 ship a runnable PoC; 40 are CVSS-critical.
+**113 reproduced exploits** across 99 products — every entry was actually run against the affected version, never copied from a writeup. 76 ship a runnable PoC; 40 are CVSS-critical.
 
 → **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
 
-`2026` 9 · `2025` 23 · `≤2024` 79&nbsp;&nbsp;|&nbsp;&nbsp;RCE 53 · LPE 15 · Auth Bypass 9 · Path Traversal 7 · SQL Injection 6 · Info Disclosure 4
+`2026` 9 · `2025` 23 · `≤2024` 81&nbsp;&nbsp;|&nbsp;&nbsp;RCE 54 · LPE 16 · Auth Bypass 9 · Path Traversal 7 · SQL Injection 6 · Info Disclosure 4
 
 ### 2026
 
@@ -99,7 +99,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2025-9074](https://github.com/galletitaconpate/verified-exploits/tree/main/Docker%20Desktop/SSRF%20-%20CVE-2025-9074) | Docker Desktop | SSRF | **9.3** |
 
 <details>
-<summary><b>full archive — 92 more</b> (2025 remainder and earlier)</summary>
+<summary><b>full archive — 94 more</b> (2025 remainder and earlier)</summary>
 
 | CVE | Target | Class | CVSS |
 | :--- | :--- | :--- | :--- |
@@ -158,11 +158,13 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2022-37706](https://github.com/galletitaconpate/verified-exploits/tree/main/Enlightenment/LPE%20-%20CVE-2022-37706) | Enlightenment | LPE | 7.8 |
 | [CVE-2022-4510](https://github.com/galletitaconpate/verified-exploits/tree/main/binwalk/PathTraversal%20-%20CVE-2022-4510) | binwalk | Path Traversal | 7.8 |
 | [CVE-2022-44268](https://github.com/galletitaconpate/verified-exploits/tree/main/ImageMagick/FileRead%20-%20CVE-2022-44268) | ImageMagick | File Read | — |
+| [CVE-2022-46169](https://github.com/galletitaconpate/verified-exploits/tree/main/Cacti/RCE%20-%20CVE-2022-46169) | Cacti | RCE | — |
 | [CVE-2021-44967](https://github.com/galletitaconpate/verified-exploits/tree/main/LimeSurvey/RCE%20-%20CVE-2021-44967) | LimeSurvey | RCE | 8.8 |
 | [CVE-2021-3493](https://github.com/galletitaconpate/verified-exploits/tree/main/Linux%20Kernel/LPE%20-%20CVE-2021-3493) | Linux Kernel | LPE | 7.8 |
 | [CVE-2021-4034](https://github.com/galletitaconpate/verified-exploits/tree/main/polkit/LPE%20-%20CVE-2021-4034) | polkit | LPE | 7.8 |
 | [CVE-2021-43798](https://github.com/galletitaconpate/verified-exploits/tree/main/Grafana/PathTraversal%20-%20CVE-2021-43798) | Grafana | Path Traversal | 7.5 |
 | [CVE-2021-20323](https://github.com/galletitaconpate/verified-exploits/tree/main/Keycloak/RXSS%20-%20CVE-2021-20323) | Keycloak | Reflected XSS | 6.1 |
+| [CVE-2021-41091](https://github.com/galletitaconpate/verified-exploits/tree/main/Moby/LPE%20-%20CVE-2021-41091) | Moby | LPE | 5.9 |
 | [CVE-2020-5752](https://github.com/galletitaconpate/verified-exploits/tree/main/Druva%20inSync/LPE%20-%20CVE-2020-5752) | Druva inSync | LPE | 7.8 |
 | [CVE-2020-27838](https://github.com/galletitaconpate/verified-exploits/tree/main/Keycloak/CWE200%20-%20CVE-2020-27838) | Keycloak | Info Disclosure | 6.5 |
 | [CVE-2020-35572](https://github.com/galletitaconpate/verified-exploits/tree/main/Adminer/FileRead%20-%20CVE-2020-35572) | Adminer | File Read | 6.1 |
