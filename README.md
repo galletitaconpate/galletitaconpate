@@ -63,11 +63,11 @@ Offensive security practitioner specializing in complex vulnerability research a
 <!-- exploit-development:start -->
 ## exploit development
 
-**108 reproduced exploits** across 96 products — every entry was actually run against the affected version, never copied from a writeup. 71 ship a runnable PoC; 39 are CVSS-critical.
+**109 reproduced exploits** across 96 products — every entry was actually run against the affected version, never copied from a writeup. 72 ship a runnable PoC; 39 are CVSS-critical.
 
 → **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
 
-`2026` 9 · `2025` 23 · `≤2024` 76&nbsp;&nbsp;|&nbsp;&nbsp;RCE 52 · LPE 15 · Auth Bypass 9 · Path Traversal 6 · SQL Injection 6 · Info Disclosure 4
+`2026` 9 · `2025` 23 · `≤2024` 77&nbsp;&nbsp;|&nbsp;&nbsp;RCE 52 · LPE 15 · Auth Bypass 9 · Path Traversal 6 · SQL Injection 6 · Info Disclosure 4
 
 ### 2026
 
@@ -99,7 +99,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2025-9074](https://github.com/galletitaconpate/verified-exploits/tree/main/Docker%20Desktop/SSRF%20-%20CVE-2025-9074) | Docker Desktop | SSRF | **9.3** |
 
 <details>
-<summary><b>full archive — 89 more</b> (2025 remainder and earlier)</summary>
+<summary><b>full archive — 90 more</b> (2025 remainder and earlier)</summary>
 
 | CVE | Target | Class | CVSS |
 | :--- | :--- | :--- | :--- |
@@ -155,6 +155,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2022-24439](https://github.com/galletitaconpate/verified-exploits/tree/main/GitPython/RCE%20-%20CVE-2022-24439) | GitPython | RCE | 8.1 |
 | [CVE-2022-0847](https://github.com/galletitaconpate/verified-exploits/tree/main/Linux%20Kernel/CWE665%20-%20CVE-2022-0847) | Linux Kernel | Improper Init | 7.8 |
 | [CVE-2022-37706](https://github.com/galletitaconpate/verified-exploits/tree/main/Enlightenment/LPE%20-%20CVE-2022-37706) | Enlightenment | LPE | 7.8 |
+| [CVE-2022-44268](https://github.com/galletitaconpate/verified-exploits/tree/main/ImageMagick/FileRead%20-%20CVE-2022-44268) | ImageMagick | File Read | — |
 | [CVE-2021-44967](https://github.com/galletitaconpate/verified-exploits/tree/main/LimeSurvey/RCE%20-%20CVE-2021-44967) | LimeSurvey | RCE | 8.8 |
 | [CVE-2021-3493](https://github.com/galletitaconpate/verified-exploits/tree/main/Linux%20Kernel/LPE%20-%20CVE-2021-3493) | Linux Kernel | LPE | 7.8 |
 | [CVE-2021-4034](https://github.com/galletitaconpate/verified-exploits/tree/main/polkit/LPE%20-%20CVE-2021-4034) | polkit | LPE | 7.8 |
