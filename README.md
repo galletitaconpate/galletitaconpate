@@ -63,11 +63,11 @@ Offensive security practitioner specializing in complex vulnerability research a
 <!-- exploit-development:start -->
 ## exploit development
 
-**114 reproduced exploits** across 100 products — every entry was actually run against the affected version, never copied from a writeup. 77 ship a runnable PoC; 41 are CVSS-critical.
+**115 reproduced exploits** across 101 products — every entry was actually run against the affected version, never copied from a writeup. 78 ship a runnable PoC; 42 are CVSS-critical.
 
 → **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
 
-`2026` 9 · `2025` 23 · `≤2024` 82&nbsp;&nbsp;|&nbsp;&nbsp;RCE 55 · LPE 16 · Auth Bypass 9 · Path Traversal 7 · SQL Injection 6 · Info Disclosure 4
+`2026` 9 · `2025` 23 · `≤2024` 83&nbsp;&nbsp;|&nbsp;&nbsp;RCE 56 · LPE 16 · Auth Bypass 9 · Path Traversal 7 · SQL Injection 6 · Info Disclosure 4
 
 ### 2026
 
@@ -99,7 +99,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2025-9074](https://github.com/galletitaconpate/verified-exploits/tree/main/Docker%20Desktop/SSRF%20-%20CVE-2025-9074) | Docker Desktop | SSRF | **9.3** |
 
 <details>
-<summary><b>full archive — 95 more</b> (2025 remainder and earlier)</summary>
+<summary><b>full archive — 96 more</b> (2025 remainder and earlier)</summary>
 
 | CVE | Target | Class | CVSS |
 | :--- | :--- | :--- | :--- |
@@ -153,6 +153,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2023-40028](https://github.com/galletitaconpate/verified-exploits/tree/main/Ghost%20CMS/PathTraversal%20-%20CVE-2023-40028) | Ghost CMS | Path Traversal | 4.9 |
 | [CVE-2023-26604](https://github.com/galletitaconpate/verified-exploits/tree/main/systemd/LPE%20-%20CVE-2023-26604) | systemd | LPE | — |
 | [CVE-2023-32784](https://github.com/galletitaconpate/verified-exploits/tree/main/KeePass/InfoDisclosure%20-%20CVE-2023-32784) | KeePass | Info Disclosure | — |
+| [CVE-2022-22963](https://github.com/galletitaconpate/verified-exploits/tree/main/Spring%20Cloud%20Function/RCE%20-%20CVE-2022-22963) | Spring Cloud Function | RCE | **9.8** |
 | [CVE-2022-0944](https://github.com/galletitaconpate/verified-exploits/tree/main/SQLPad/SSTI%20-%20CVE-2022-0944) | SQLPad | SSTI | **9.1** |
 | [CVE-2022-24439](https://github.com/galletitaconpate/verified-exploits/tree/main/GitPython/RCE%20-%20CVE-2022-24439) | GitPython | RCE | 8.1 |
 | [CVE-2022-0847](https://github.com/galletitaconpate/verified-exploits/tree/main/Linux%20Kernel/CWE665%20-%20CVE-2022-0847) | Linux Kernel | Improper Init | 7.8 |
