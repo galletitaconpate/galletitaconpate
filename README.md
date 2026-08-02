@@ -63,11 +63,11 @@ Offensive security practitioner specializing in complex vulnerability research a
 <!-- exploit-development:start -->
 ## exploit development
 
-**116 reproduced exploits** across 102 products — every entry was actually run against the affected version, never copied from a writeup. 79 ship a runnable PoC; 42 are CVSS-critical.
+**117 reproduced exploits** across 103 products — every entry was actually run against the affected version, never copied from a writeup. 80 ship a runnable PoC; 42 are CVSS-critical.
 
 → **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
 
-`2026` 9 · `2025` 23 · `≤2024` 84&nbsp;&nbsp;|&nbsp;&nbsp;RCE 56 · LPE 16 · Auth Bypass 9 · Path Traversal 8 · SQL Injection 6 · Info Disclosure 4
+`2026` 9 · `2025` 23 · `≤2024` 85&nbsp;&nbsp;|&nbsp;&nbsp;RCE 56 · LPE 16 · Auth Bypass 9 · Path Traversal 8 · SQL Injection 7 · Info Disclosure 4
 
 ### 2026
 
@@ -99,7 +99,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2025-9074](https://github.com/galletitaconpate/verified-exploits/tree/main/Docker%20Desktop/SSRF%20-%20CVE-2025-9074) | Docker Desktop | SSRF | **9.3** |
 
 <details>
-<summary><b>full archive — 97 more</b> (2025 remainder and earlier)</summary>
+<summary><b>full archive — 98 more</b> (2025 remainder and earlier)</summary>
 
 | CVE | Target | Class | CVSS |
 | :--- | :--- | :--- | :--- |
@@ -159,6 +159,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2022-0847](https://github.com/galletitaconpate/verified-exploits/tree/main/Linux%20Kernel/CWE665%20-%20CVE-2022-0847) | Linux Kernel | Improper Init | 7.8 |
 | [CVE-2022-37706](https://github.com/galletitaconpate/verified-exploits/tree/main/Enlightenment/LPE%20-%20CVE-2022-37706) | Enlightenment | LPE | 7.8 |
 | [CVE-2022-4510](https://github.com/galletitaconpate/verified-exploits/tree/main/binwalk/PathTraversal%20-%20CVE-2022-4510) | binwalk | Path Traversal | 7.8 |
+| [CVE-2022-24707](https://github.com/galletitaconpate/verified-exploits/tree/main/Anuko%20Time%20Tracker/SQLi%20-%20CVE-2022-24707) | Anuko Time Tracker | SQL Injection | — |
 | [CVE-2022-44268](https://github.com/galletitaconpate/verified-exploits/tree/main/ImageMagick/FileRead%20-%20CVE-2022-44268) | ImageMagick | File Read | — |
 | [CVE-2022-46169](https://github.com/galletitaconpate/verified-exploits/tree/main/Cacti/RCE%20-%20CVE-2022-46169) | Cacti | RCE | — |
 | [CVE-2021-44967](https://github.com/galletitaconpate/verified-exploits/tree/main/LimeSurvey/RCE%20-%20CVE-2021-44967) | LimeSurvey | RCE | 8.8 |
@@ -212,17 +213,10 @@ Offensive security practitioner specializing in complex vulnerability research a
 
 | Badge | Name | Status |
 |-------|------|--------|
-| 🟦 CWPE | HTB Wi-Fi Penetration Tester | 🔄 34.1% |
-| 🟦 CWEE | HTB Certified Web Exploitation Expert | 🔄 19.2% |
-| 🟦 CAPE | HTB Certified Active Directory Pentesting Expert | 🔄 14.2% |
-| 🟩 CPTS | [HTB Certified Penetration Testing Specialist](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-5A5556FF17?utm_medium=copy_url) | ✅ July 2026 |
-| 🟩 CJCA | [HTB Certified Junior Cybersecurity Associate](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-A5C907386B?utm_medium=copy_url) | ✅ July 2026 |
-| 🟩 COAE | [HTB Certified Offensive AI Expert](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-1A9A2C9CBB?utm_medium=copy_url) | ✅ June 2026 |
-| 🧪 Dante | HTB Pro Lab | ✅ June 2026 |
-| 🧪 P.O.O. | HTB Pro Lab | ✅ June 2026 |
-| 🧪 Mythical | HTB Pro Lab | ✅ June 2026 |
-| 🧪 Unintended | HTB Pro Lab | ✅ June 2026 |
-| 🟩 CWES | [HTB Certified Web Exploitation Specialist](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-414397D53C?utm_medium=copy_url) | ✅ December 2025 |
+| 🟩 CPTS | [HTB Certified Penetration Testing Specialist](https://academy.hackthebox.com/achievement/badge/34f5ae2f-8b59-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
+| 🟩 CJCA | [HTB Certified Junior Cybersecurity Associate](https://academy.hackthebox.com/achievement/badge/e5289ccc-8698-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
+| 🟩 COAE | [HTB Certified Offensive AI Expert](https://academy.hackthebox.com/achievement/badge/5f61e864-73aa-11f1-82d1-bea50ffe6cb4) | ✅ June 2026 |
+| 🟩 CWES | [HTB Certified Web Exploitation Specialist](https://academy.hackthebox.com/achievement/badge/be48e831-d1cd-11f0-9254-bea50ffe6cb4) | ✅ December 2025 |
 | 🟩 CEHv12 | Certified Ethical Hacker (CEH v12) | ✅ December 2023 |
 | 🟩 eWPT | Web Application Penetration Tester | ✅ February 2022 |
 | 🟩 CS50-AI | CS50 Introduction to AI with Python | ✅ February 2022 |
@@ -233,6 +227,14 @@ Offensive security practitioner specializing in complex vulnerability research a
 | 🟩 PY-ADV | Advanced Python | ✅ February 2019 |
 | 🟩 QA-TESTER | Software Tester QA | ✅ June 2018 |
 | 🟩 EH-PENTEST | Ethical Hacking and Pentesting | ✅ June 2018 |
+| 🧪 Dante | HTB Pro Lab | ✅ June 2026 |
+| 🧪 P.O.O. | HTB Pro Lab | ✅ June 2026 |
+| 🧪 Mythical | HTB Pro Lab | ✅ June 2026 |
+| 🧪 Unintended | HTB Pro Lab | ✅ Completed |
+| 🟦 CWPE | HTB Wi-Fi Penetration Tester | 🔄 34.1% |
+| 🟦 CWEE | HTB Certified Web Exploitation Expert | 🔄 19.2% |
+| 🟦 CAPE | HTB Certified Active Directory Pentesting Expert | 🔄 14.2% |
+
 <!-- certifications:end -->
 
 ---
