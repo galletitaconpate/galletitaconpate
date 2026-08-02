@@ -63,11 +63,11 @@ Offensive security practitioner specializing in complex vulnerability research a
 <!-- exploit-development:start -->
 ## exploit development
 
-**118 reproduced exploits** across 103 products — every entry was actually run against the affected version, never copied from a writeup. 80 ship a runnable PoC; 43 are CVSS-critical.
+**119 reproduced exploits** across 104 products — every entry was actually run against the affected version, never copied from a writeup. 81 ship a runnable PoC; 43 are CVSS-critical.
 
 → **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
 
-`2026` 9 · `2025` 23 · `≤2024` 86&nbsp;&nbsp;|&nbsp;&nbsp;RCE 56 · LPE 16 · Auth Bypass 9 · Path Traversal 8 · SQL Injection 7 · Info Disclosure 4
+`2026` 10 · `2025` 23 · `≤2024` 86&nbsp;&nbsp;|&nbsp;&nbsp;RCE 56 · LPE 17 · Auth Bypass 9 · Path Traversal 8 · SQL Injection 7 · Info Disclosure 4
 
 ### 2026
 
@@ -82,6 +82,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2026-4480](https://github.com/galletitaconpate/verified-exploits/tree/main/Samba/RCE%20-%20CVE-2026-4480) | Samba | RCE | **9.0** |
 | [CVE-2026-26231](https://github.com/galletitaconpate/verified-exploits/tree/main/Gitea/AuthBypass%20-%20CVE-2026-26231) | Gitea | Auth Bypass | 8.5 |
 | [CVE-2026-3888](https://github.com/galletitaconpate/verified-exploits/tree/main/snapd/LPE%20-%20CVE-2026-3888) | snapd | LPE | 7.8 |
+| [CVE-2026-41651](https://github.com/galletitaconpate/verified-exploits/tree/main/PackageKit/LPE%20-%20CVE-2026-41651) | PackageKit | LPE | — |
 
 ### 2025 · top 10 of 23
 
