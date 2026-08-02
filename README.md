@@ -63,11 +63,11 @@ Offensive security practitioner specializing in complex vulnerability research a
 <!-- exploit-development:start -->
 ## exploit development
 
-**117 reproduced exploits** across 103 products — every entry was actually run against the affected version, never copied from a writeup. 80 ship a runnable PoC; 42 are CVSS-critical.
+**118 reproduced exploits** across 103 products — every entry was actually run against the affected version, never copied from a writeup. 80 ship a runnable PoC; 43 are CVSS-critical.
 
 → **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
 
-`2026` 9 · `2025` 23 · `≤2024` 85&nbsp;&nbsp;|&nbsp;&nbsp;RCE 56 · LPE 16 · Auth Bypass 9 · Path Traversal 8 · SQL Injection 7 · Info Disclosure 4
+`2026` 9 · `2025` 23 · `≤2024` 86&nbsp;&nbsp;|&nbsp;&nbsp;RCE 56 · LPE 16 · Auth Bypass 9 · Path Traversal 8 · SQL Injection 7 · Info Disclosure 4
 
 ### 2026
 
@@ -99,7 +99,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2025-9074](https://github.com/galletitaconpate/verified-exploits/tree/main/Docker%20Desktop/SSRF%20-%20CVE-2025-9074) | Docker Desktop | SSRF | **9.3** |
 
 <details>
-<summary><b>full archive — 98 more</b> (2025 remainder and earlier)</summary>
+<summary><b>full archive — 99 more</b> (2025 remainder and earlier)</summary>
 
 | CVE | Target | Class | CVSS |
 | :--- | :--- | :--- | :--- |
@@ -118,6 +118,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2025-61678](https://github.com/galletitaconpate/verified-exploits/tree/main/FreePBX/PathTraversal%20-%20CVE-2025-61678) | FreePBX | Path Traversal | — |
 | [CVE-2024-51482](https://github.com/galletitaconpate/verified-exploits/tree/main/ZoneMinder/SQLi%20-%20CVE-2024-51482) | ZoneMinder | SQL Injection | **9.9** |
 | [CVE-2024-9264](https://github.com/galletitaconpate/verified-exploits/tree/main/Grafana/RCE%20-%20CVE-2024-9264) | Grafana | RCE | **9.9** |
+| [CVE-2024-23897](https://github.com/galletitaconpate/verified-exploits/tree/main/Jenkins/FileRead%20-%20CVE-2024-23897) | Jenkins | File Read | **9.8** |
 | [CVE-2024-3660](https://github.com/galletitaconpate/verified-exploits/tree/main/TensorFlow/RCE%20-%20CVE-2024-3660) | TensorFlow | RCE | **9.8** |
 | [CVE-2024-53677](https://github.com/galletitaconpate/verified-exploits/tree/main/Apache%20Struts2/PathTraversal%20-%20CVE-2024-53677) | Apache Struts2 | Path Traversal | **9.8** |
 | [CVE-2024-34070](https://github.com/galletitaconpate/verified-exploits/tree/main/Froxlor/RXSS%20-%20CVE-2024-34070) | Froxlor | Reflected XSS | **9.6** |
