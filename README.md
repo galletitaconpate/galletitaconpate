@@ -63,7 +63,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 <!-- exploit-development:start -->
 ## exploit development
 
-**119 reproduced exploits** across 104 products — every entry was actually run against the affected version, never copied from a writeup. 81 ship a runnable PoC; 43 are CVSS-critical.
+**119 reproduced exploits** across 104 products — every entry was actually run against the affected version, never copied from a writeup. 81 ship a runnable PoC; 44 are CVSS-critical.
 
 → **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
 
@@ -80,9 +80,9 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2026-33937](https://github.com/galletitaconpate/verified-exploits/tree/main/Handlebars.js/RCE%20-%20CVE-2026-33937) | Handlebars.js | RCE | **9.8** |
 | [CVE-2026-63030](https://github.com/galletitaconpate/verified-exploits/tree/main/WordPress/SQLi%20-%20CVE-2026-63030) | WordPress | SQL Injection | **9.8** |
 | [CVE-2026-4480](https://github.com/galletitaconpate/verified-exploits/tree/main/Samba/RCE%20-%20CVE-2026-4480) | Samba | RCE | **9.0** |
+| [CVE-2026-41651](https://github.com/galletitaconpate/verified-exploits/tree/main/PackageKit/LPE%20-%20CVE-2026-41651) | PackageKit | LPE | 8.8 |
 | [CVE-2026-26231](https://github.com/galletitaconpate/verified-exploits/tree/main/Gitea/AuthBypass%20-%20CVE-2026-26231) | Gitea | Auth Bypass | 8.5 |
 | [CVE-2026-3888](https://github.com/galletitaconpate/verified-exploits/tree/main/snapd/LPE%20-%20CVE-2026-3888) | snapd | LPE | 7.8 |
-| [CVE-2026-41651](https://github.com/galletitaconpate/verified-exploits/tree/main/PackageKit/LPE%20-%20CVE-2026-41651) | PackageKit | LPE | — |
 
 ### 2025 · top 10 of 23
 
@@ -143,8 +143,10 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2023-50564](https://github.com/galletitaconpate/verified-exploits/tree/main/Pluck/RCE%20-%20CVE-2023-50564) | Pluck | RCE | 8.8 |
 | [CVE-2023-4220](https://github.com/galletitaconpate/verified-exploits/tree/main/Chamilo%20LMS/RCE%20-%20CVE-2023-4220) | Chamilo LMS | RCE | 8.1 |
 | [CVE-2023-0386](https://github.com/galletitaconpate/verified-exploits/tree/main/Linux%20Kernel/LPE%20-%20CVE-2023-0386) | Linux Kernel | LPE | 7.8 |
+| [CVE-2023-26604](https://github.com/galletitaconpate/verified-exploits/tree/main/systemd/LPE%20-%20CVE-2023-26604) | systemd | LPE | 7.8 |
 | [CVE-2023-49147](https://github.com/galletitaconpate/verified-exploits/tree/main/PDF24%20Creator/LPE%20-%20CVE-2023-49147) | PDF24 Creator | LPE | 7.8 |
 | [CVE-2023-1326](https://github.com/galletitaconpate/verified-exploits/tree/main/apport/LPE%20-%20CVE-2023-1326) | apport | LPE | 7.7 |
+| [CVE-2023-32784](https://github.com/galletitaconpate/verified-exploits/tree/main/KeePass/InfoDisclosure%20-%20CVE-2023-32784) | KeePass | Info Disclosure | 7.5 |
 | [CVE-2023-24249](https://github.com/galletitaconpate/verified-exploits/tree/main/laravel-admin/RCE%20-%20CVE-2023-24249) | laravel-admin | RCE | 7.2 |
 | [CVE-2023-46818](https://github.com/galletitaconpate/verified-exploits/tree/main/ISPConfig/RCE%20-%20CVE-2023-46818) | ISPConfig | RCE | 7.2 |
 | [CVE-2023-27163](https://github.com/galletitaconpate/verified-exploits/tree/main/request-baskets/SSRF%20-%20CVE-2023-27163) | request-baskets | SSRF | 6.5 |
@@ -153,24 +155,22 @@ Offensive security practitioner specializing in complex vulnerability research a
 | [CVE-2023-23752](https://github.com/galletitaconpate/verified-exploits/tree/main/Joomla/AuthBypass%20-%20CVE-2023-23752) | Joomla | Auth Bypass | 5.3 |
 | [CVE-2023-44487](https://github.com/galletitaconpate/verified-exploits/tree/main/CVE-2023-44487) | HTTP/2 | DoS | 5.3 |
 | [CVE-2023-40028](https://github.com/galletitaconpate/verified-exploits/tree/main/Ghost%20CMS/PathTraversal%20-%20CVE-2023-40028) | Ghost CMS | Path Traversal | 4.9 |
-| [CVE-2023-26604](https://github.com/galletitaconpate/verified-exploits/tree/main/systemd/LPE%20-%20CVE-2023-26604) | systemd | LPE | — |
-| [CVE-2023-32784](https://github.com/galletitaconpate/verified-exploits/tree/main/KeePass/InfoDisclosure%20-%20CVE-2023-32784) | KeePass | Info Disclosure | — |
 | [CVE-2022-22963](https://github.com/galletitaconpate/verified-exploits/tree/main/Spring%20Cloud%20Function/RCE%20-%20CVE-2022-22963) | Spring Cloud Function | RCE | **9.8** |
+| [CVE-2022-46169](https://github.com/galletitaconpate/verified-exploits/tree/main/Cacti/RCE%20-%20CVE-2022-46169) | Cacti | RCE | **9.8** |
 | [CVE-2022-0944](https://github.com/galletitaconpate/verified-exploits/tree/main/SQLPad/SSTI%20-%20CVE-2022-0944) | SQLPad | SSTI | **9.1** |
 | [CVE-2022-24439](https://github.com/galletitaconpate/verified-exploits/tree/main/GitPython/RCE%20-%20CVE-2022-24439) | GitPython | RCE | 8.1 |
 | [CVE-2022-0847](https://github.com/galletitaconpate/verified-exploits/tree/main/Linux%20Kernel/CWE665%20-%20CVE-2022-0847) | Linux Kernel | Improper Init | 7.8 |
 | [CVE-2022-37706](https://github.com/galletitaconpate/verified-exploits/tree/main/Enlightenment/LPE%20-%20CVE-2022-37706) | Enlightenment | LPE | 7.8 |
 | [CVE-2022-4510](https://github.com/galletitaconpate/verified-exploits/tree/main/binwalk/PathTraversal%20-%20CVE-2022-4510) | binwalk | Path Traversal | 7.8 |
-| [CVE-2022-24707](https://github.com/galletitaconpate/verified-exploits/tree/main/Anuko%20Time%20Tracker/SQLi%20-%20CVE-2022-24707) | Anuko Time Tracker | SQL Injection | — |
-| [CVE-2022-44268](https://github.com/galletitaconpate/verified-exploits/tree/main/ImageMagick/FileRead%20-%20CVE-2022-44268) | ImageMagick | File Read | — |
-| [CVE-2022-46169](https://github.com/galletitaconpate/verified-exploits/tree/main/Cacti/RCE%20-%20CVE-2022-46169) | Cacti | RCE | — |
+| [CVE-2022-24707](https://github.com/galletitaconpate/verified-exploits/tree/main/Anuko%20Time%20Tracker/SQLi%20-%20CVE-2022-24707) | Anuko Time Tracker | SQL Injection | 7.4 |
+| [CVE-2022-44268](https://github.com/galletitaconpate/verified-exploits/tree/main/ImageMagick/FileRead%20-%20CVE-2022-44268) | ImageMagick | File Read | 6.5 |
 | [CVE-2021-44967](https://github.com/galletitaconpate/verified-exploits/tree/main/LimeSurvey/RCE%20-%20CVE-2021-44967) | LimeSurvey | RCE | 8.8 |
+| [CVE-2021-45010](https://github.com/galletitaconpate/verified-exploits/tree/main/Tiny%20File%20Manager/PathTraversal%20-%20CVE-2021-45010) | Tiny File Manager | Path Traversal | 8.8 |
 | [CVE-2021-3493](https://github.com/galletitaconpate/verified-exploits/tree/main/Linux%20Kernel/LPE%20-%20CVE-2021-3493) | Linux Kernel | LPE | 7.8 |
 | [CVE-2021-4034](https://github.com/galletitaconpate/verified-exploits/tree/main/polkit/LPE%20-%20CVE-2021-4034) | polkit | LPE | 7.8 |
 | [CVE-2021-43798](https://github.com/galletitaconpate/verified-exploits/tree/main/Grafana/PathTraversal%20-%20CVE-2021-43798) | Grafana | Path Traversal | 7.5 |
 | [CVE-2021-20323](https://github.com/galletitaconpate/verified-exploits/tree/main/Keycloak/RXSS%20-%20CVE-2021-20323) | Keycloak | Reflected XSS | 6.1 |
 | [CVE-2021-41091](https://github.com/galletitaconpate/verified-exploits/tree/main/Moby/LPE%20-%20CVE-2021-41091) | Moby | LPE | 5.9 |
-| [CVE-2021-45010](https://github.com/galletitaconpate/verified-exploits/tree/main/Tiny%20File%20Manager/PathTraversal%20-%20CVE-2021-45010) | Tiny File Manager | Path Traversal | — |
 | [CVE-2020-5752](https://github.com/galletitaconpate/verified-exploits/tree/main/Druva%20inSync/LPE%20-%20CVE-2020-5752) | Druva inSync | LPE | 7.8 |
 | [CVE-2020-27838](https://github.com/galletitaconpate/verified-exploits/tree/main/Keycloak/CWE200%20-%20CVE-2020-27838) | Keycloak | Info Disclosure | 6.5 |
 | [CVE-2020-35572](https://github.com/galletitaconpate/verified-exploits/tree/main/Adminer/FileRead%20-%20CVE-2020-35572) | Adminer | File Read | 6.1 |
