@@ -215,6 +215,9 @@ Offensive security practitioner specializing in complex vulnerability research a
 
 | Badge | Name | Status |
 |-------|------|--------|
+| 🟦 CAPE | HTB Certified Active Directory Pentesting Expert | 🔄 100% |
+| 🟦 CWPE | HTB Wi-Fi Penetration Tester | 🔄 100% |
+| 🟧 CWEE | HTB Certified Web Exploitation Expert | ⏳ August 2026 (Waiting for results) |
 | 🟩 CPTS | [HTB Certified Penetration Testing Specialist](https://academy.hackthebox.com/achievement/badge/34f5ae2f-8b59-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
 | 🟩 CJCA | [HTB Certified Junior Cybersecurity Associate](https://academy.hackthebox.com/achievement/badge/e5289ccc-8698-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
 | 🟩 COAE | [HTB Certified Offensive AI Expert](https://academy.hackthebox.com/achievement/badge/5f61e864-73aa-11f1-82d1-bea50ffe6cb4) | ✅ June 2026 |
@@ -233,10 +236,6 @@ Offensive security practitioner specializing in complex vulnerability research a
 | 🧪 P.O.O. | HTB Pro Lab | ✅ June 2026 |
 | 🧪 Mythical | HTB Pro Lab | ✅ June 2026 |
 | 🧪 Unintended | HTB Pro Lab | ✅ Completed |
-| 🟦 CWPE | HTB Wi-Fi Penetration Tester | 🔄 34.1% |
-| 🟦 CWEE | HTB Certified Web Exploitation Expert | 🔄 19.2% |
-| 🟦 CAPE | HTB Certified Active Directory Pentesting Expert | 🔄 14.2% |
-
 <!-- certifications:end -->
 
 ---
