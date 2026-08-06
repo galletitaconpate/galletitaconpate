@@ -52,8 +52,8 @@ Offensive security practitioner specializing in complex vulnerability research a
 
 | ID | Target | Severity | Fixed in | Finding |
 | :--- | :--- | :--- | :--- | :--- |
-| [GHSA-f2mc-9pw6-w3mf](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-f2mc-9pw6-w3mf) | DefectDojo | Moderate 5.4 | `3.1.301` | Product Type Membership Could Be Changed Through the API Without the Member-Management Permission* |
 | [GHSA-66mc-2whw-f3w9](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-66mc-2whw-f3w9) | DefectDojo | Moderate 4.3 | `3.1.302` | Missing Authorization in Global Search Allows Cross-Product Disclosure of Product Metadata *(co-credited, 2 reporters)* |
+| [GHSA-f2mc-9pw6-w3mf](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-f2mc-9pw6-w3mf) | DefectDojo | Moderate 5.4 | `3.1.301` | Product Type Membership Could Be Changed Through the API Without the Member-Management Permission |
 | [GHSA-j4rw-3r36-79pm](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-j4rw-3r36-79pm) | DefectDojo | Moderate 5.4 | `3.1.100` | Missing authorization on questionnaire relink allows cross-product access to questionnaire responses |
 | [GHSA-43f3-w9fq-8v5j](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-43f3-w9fq-8v5j) | DefectDojo | Moderate 6.5 | `3.1.300` | Improper authorization allows account takeover by a delegated user manager |
 | [GHSA-7w4m-r6wp-2c5r](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-7w4m-r6wp-2c5r) | DefectDojo | Moderate 6.3 | `3.1.300` | Cross-product authorization gaps in the V3 Locations feature allow access to other products' location and endpoint data *(co-credited, 7 reporters)* |
