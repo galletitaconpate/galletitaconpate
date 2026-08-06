@@ -48,7 +48,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 
 ### 🛡️ Security Research & Disclosures
 
-*3 advisories · 2 sole credit · 1 co-credited.*
+*3 advisories · 3 sole credit · 2 co-credited.*
 
 | ID | Target | Severity | Fixed in | Finding |
 | :--- | :--- | :--- | :--- | :--- |
