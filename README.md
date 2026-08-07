@@ -217,12 +217,12 @@ Offensive security practitioner specializing in complex vulnerability research a
 | Badge | Name | Status |
 |-------|------|--------|
 | 🟦 CAPE | HTB Certified Active Directory Pentesting Expert | 🔄 100% |
-| 🟦 CWPE | HTB Wi-Fi Penetration Tester | 🔄 100% |
-| 🟧 CWEE | HTB Certified Web Exploitation Expert | ⏳ August 2026 (Waiting for results) |
-| 🟩 CPTS | [HTB Certified Penetration Testing Specialist](https://academy.hackthebox.com/achievement/badge/34f5ae2f-8b59-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
-| 🟩 CJCA | [HTB Certified Junior Cybersecurity Associate](https://academy.hackthebox.com/achievement/badge/e5289ccc-8698-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
-| 🟩 COAE | [HTB Certified Offensive AI Expert](https://academy.hackthebox.com/achievement/badge/5f61e864-73aa-11f1-82d1-bea50ffe6cb4) | ✅ June 2026 |
-| 🟩 CWES | [HTB Certified Web Exploitation Specialist](https://academy.hackthebox.com/achievement/badge/be48e831-d1cd-11f0-9254-bea50ffe6cb4) | ✅ December 2025 |
+| 🟧 CWPE | HTB Wi-Fi Penetration Tester | ⏳ August 2026 (Waiting for results) |
+| 🟩 CWEE | [HTB Certified Web Exploitation Expert](https://academy.hackthebox.com/achievement/badge/67c73189-9242-11f1-82d1-bea50ffe6cb4) | ✅ August 2026  |
+| 🟩 CPTS | [HTB Certified Penetration Testing Specialist](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-5A5556FF17?utm_medium=copy_url) | ✅ July 2026 |
+| 🟩 CJCA | [HTB Certified Junior Cybersecurity Associate](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-A5C907386B?utm_medium=copy_url) | ✅ July 2026 |
+| 🟩 COAE | [HTB Certified Offensive AI Expert](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-1A9A2C9CBB?utm_medium=copy_url) | ✅ June 2026 |
+| 🟩 CWES | [HTB Certified Web Exploitation Specialist](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-414397D53C?utm_medium=copy_url) | ✅ December 2025 |
 | 🟩 CEHv12 | Certified Ethical Hacker (CEH v12) | ✅ December 2023 |
 | 🟩 eWPT | Web Application Penetration Tester | ✅ February 2022 |
 | 🟩 CS50-AI | CS50 Introduction to AI with Python | ✅ February 2022 |
