@@ -48,15 +48,14 @@ Offensive security practitioner specializing in complex vulnerability research a
 
 ### 🛡️ Security Research & Disclosures
 
-*3 advisories · 3 sole credit · 2 co-credited.*
+*3 advisories · 2 sole credit · 1 co-credited.*
 
 | ID | Target | Severity | Fixed in | Finding |
 | :--- | :--- | :--- | :--- | :--- |
-| [GHSA-66mc-2whw-f3w9](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-66mc-2whw-f3w9) | DefectDojo | Moderate 4.3 | `3.1.302` | Missing Authorization in Global Search Allows Cross-Product Disclosure of Product Metadata *(co-credited, 2 reporters)* |
-| [GHSA-f2mc-9pw6-w3mf](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-f2mc-9pw6-w3mf) | DefectDojo | Moderate 5.4 | `3.1.301` | Product Type Membership Could Be Changed Through the API Without the Member-Management Permission |
 | [GHSA-j4rw-3r36-79pm](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-j4rw-3r36-79pm) | DefectDojo | Moderate 5.4 | `3.1.100` | Missing authorization on questionnaire relink allows cross-product access to questionnaire responses |
 | [GHSA-43f3-w9fq-8v5j](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-43f3-w9fq-8v5j) | DefectDojo | Moderate 6.5 | `3.1.300` | Improper authorization allows account takeover by a delegated user manager |
 | [GHSA-7w4m-r6wp-2c5r](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-7w4m-r6wp-2c5r) | DefectDojo | Moderate 6.3 | `3.1.300` | Cross-product authorization gaps in the V3 Locations feature allow access to other products' location and endpoint data *(co-credited, 7 reporters)* |
+
 <!-- bug-bounty:end -->
 
 ---
@@ -216,13 +215,10 @@ Offensive security practitioner specializing in complex vulnerability research a
 
 | Badge | Name | Status |
 |-------|------|--------|
-| 🟦 CAPE | HTB Certified Active Directory Pentesting Expert | 🔄 100% |
-| 🟧 CWPE | HTB Wi-Fi Penetration Tester | ⏳ August 2026 (Waiting for results) |
-| 🟩 CWEE | [HTB Certified Web Exploitation Expert](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-0682E04537?utm_medium=copy_url) | ✅ August 2026  |
-| 🟩 CPTS | [HTB Certified Penetration Testing Specialist](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-5A5556FF17?utm_medium=copy_url) | ✅ July 2026 |
-| 🟩 CJCA | [HTB Certified Junior Cybersecurity Associate](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-A5C907386B?utm_medium=copy_url) | ✅ July 2026 |
-| 🟩 COAE | [HTB Certified Offensive AI Expert](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-1A9A2C9CBB?utm_medium=copy_url) | ✅ June 2026 |
-| 🟩 CWES | [HTB Certified Web Exploitation Specialist](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-414397D53C?utm_medium=copy_url) | ✅ December 2025 |
+| 🟩 CPTS | [HTB Certified Penetration Testing Specialist](https://academy.hackthebox.com/achievement/badge/34f5ae2f-8b59-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
+| 🟩 CJCA | [HTB Certified Junior Cybersecurity Associate](https://academy.hackthebox.com/achievement/badge/e5289ccc-8698-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
+| 🟩 COAE | [HTB Certified Offensive AI Expert](https://academy.hackthebox.com/achievement/badge/5f61e864-73aa-11f1-82d1-bea50ffe6cb4) | ✅ June 2026 |
+| 🟩 CWES | [HTB Certified Web Exploitation Specialist](https://academy.hackthebox.com/achievement/badge/be48e831-d1cd-11f0-9254-bea50ffe6cb4) | ✅ December 2025 |
 | 🟩 CEHv12 | Certified Ethical Hacker (CEH v12) | ✅ December 2023 |
 | 🟩 eWPT | Web Application Penetration Tester | ✅ February 2022 |
 | 🟩 CS50-AI | CS50 Introduction to AI with Python | ✅ February 2022 |
@@ -237,6 +233,10 @@ Offensive security practitioner specializing in complex vulnerability research a
 | 🧪 P.O.O. | HTB Pro Lab | ✅ June 2026 |
 | 🧪 Mythical | HTB Pro Lab | ✅ June 2026 |
 | 🧪 Unintended | HTB Pro Lab | ✅ Completed |
+| 🟦 CWPE | HTB Wi-Fi Penetration Tester | 🔄 34.1% |
+| 🟦 CWEE | HTB Certified Web Exploitation Expert | 🔄 19.2% |
+| 🟦 CAPE | HTB Certified Active Directory Pentesting Expert | 🔄 14.2% |
+
 <!-- certifications:end -->
 
 ---
