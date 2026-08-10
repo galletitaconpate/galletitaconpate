@@ -48,10 +48,12 @@ Offensive security practitioner specializing in complex vulnerability research a
 
 ### 🛡️ Security Research & Disclosures
 
-*3 advisories · 2 sole credit · 1 co-credited.*
+*5 advisories · 3 sole credit · 2 co-credited.*
 
 | ID | Target | Severity | Fixed in | Finding |
 | :--- | :--- | :--- | :--- | :--- |
+| [GHSA-66mc-2whw-f3w9](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-66mc-2whw-f3w9) | DefectDojo | Moderate 4.3 | `3.1.302` | Missing Authorization in Global Search Allows Cross-Product Disclosure of Product Metadata *(co-credited, 2 reporters)* |
+| [GHSA-f2mc-9pw6-w3mf](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-f2mc-9pw6-w3mf) | DefectDojo | Moderate 5.4 | `3.1.301` | Product Type Membership Could Be Changed Through the API Without the Member-Management Permission |
 | [GHSA-j4rw-3r36-79pm](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-j4rw-3r36-79pm) | DefectDojo | Moderate 5.4 | `3.1.100` | Missing authorization on questionnaire relink allows cross-product access to questionnaire responses |
 | [GHSA-43f3-w9fq-8v5j](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-43f3-w9fq-8v5j) | DefectDojo | Moderate 6.5 | `3.1.300` | Improper authorization allows account takeover by a delegated user manager |
 | [GHSA-7w4m-r6wp-2c5r](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-7w4m-r6wp-2c5r) | DefectDojo | Moderate 6.3 | `3.1.300` | Cross-product authorization gaps in the V3 Locations feature allow access to other products' location and endpoint data *(co-credited, 7 reporters)* |
@@ -215,6 +217,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 
 | Badge | Name | Status |
 |-------|------|--------|
+| 🟩 CWEE | [HTB Certified Web Exploitation Expert](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-0682E04537) | ✅ August 2026 |
 | 🟩 CPTS | [HTB Certified Penetration Testing Specialist](https://academy.hackthebox.com/achievement/badge/34f5ae2f-8b59-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
 | 🟩 CJCA | [HTB Certified Junior Cybersecurity Associate](https://academy.hackthebox.com/achievement/badge/e5289ccc-8698-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
 | 🟩 COAE | [HTB Certified Offensive AI Expert](https://academy.hackthebox.com/achievement/badge/5f61e864-73aa-11f1-82d1-bea50ffe6cb4) | ✅ June 2026 |
@@ -233,9 +236,8 @@ Offensive security practitioner specializing in complex vulnerability research a
 | 🧪 P.O.O. | HTB Pro Lab | ✅ June 2026 |
 | 🧪 Mythical | HTB Pro Lab | ✅ June 2026 |
 | 🧪 Unintended | HTB Pro Lab | ✅ Completed |
+| 🟦 CAPE | HTB Certified Active Directory Pentesting Expert | 🔄 100% |
 | 🟦 CWPE | HTB Wi-Fi Penetration Tester | 🔄 34.1% |
-| 🟦 CWEE | HTB Certified Web Exploitation Expert | 🔄 19.2% |
-| 🟦 CAPE | HTB Certified Active Directory Pentesting Expert | 🔄 14.2% |
 
 <!-- certifications:end -->
 
