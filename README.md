@@ -237,7 +237,7 @@ Offensive security practitioner specializing in complex vulnerability research a
 | 🧪 Mythical | HTB Pro Lab | ✅ June 2026 |
 | 🧪 Unintended | HTB Pro Lab | ✅ Completed |
 | 🟦 CAPE | HTB Certified Active Directory Pentesting Expert | 🔄 100% |
-| 🟦 CWPE | HTB Wi-Fi Penetration Tester | 🔄 34.1% |
+| 🟧 CWPE | HTB Wi-Fi Penetration Tester | ⏳ Awaiting results |
 
 <!-- certifications:end -->
 
