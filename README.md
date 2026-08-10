@@ -34,7 +34,7 @@ Focus    : Web/API · Mobile (iOS/Android) · Active Directory · WiFi · Cloud
 Location : Argentina
 ```
 
-Offensive security practitioner specializing in complex vulnerability research across web, mobile, network and cloud environments. I break things professionally — and occasionally document how.
+Offensive security researcher specializing in complex vulnerability research across web, mobile, network and cloud environments. I break things professionally — and occasionally document how.
 
 ---
 
