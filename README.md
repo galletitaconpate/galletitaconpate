@@ -65,11 +65,11 @@ Offensive security researcher specializing in complex vulnerability research acr
 <!-- exploit-development:start -->
 ## exploit development
 
-**119 reproduced exploits** across 104 products — every entry was actually run against the affected version, never copied from a writeup. 81 ship a runnable PoC; 44 are CVSS-critical.
+**120 reproduced exploits** across 104 products — every entry was actually run against the affected version, never copied from a writeup. 82 ship a runnable PoC; 44 are CVSS-critical.
 
 → **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
 
-`2026` 10 · `2025` 23 · `≤2024` 86&nbsp;&nbsp;|&nbsp;&nbsp;RCE 56 · LPE 17 · Auth Bypass 9 · Path Traversal 8 · SQL Injection 7 · Info Disclosure 4
+`2026` 10 · `2025` 23 · `≤2024` 87&nbsp;&nbsp;|&nbsp;&nbsp;RCE 56 · LPE 17 · Auth Bypass 9 · Path Traversal 8 · SQL Injection 7 · Info Disclosure 4
 
 ### 2026
 
@@ -102,7 +102,7 @@ Offensive security researcher specializing in complex vulnerability research acr
 | [CVE-2025-9074](https://github.com/galletitaconpate/verified-exploits/tree/main/Docker%20Desktop/SSRF%20-%20CVE-2025-9074) | Docker Desktop | SSRF | **9.3** |
 
 <details>
-<summary><b>full archive — 99 more</b> (2025 remainder and earlier)</summary>
+<summary><b>full archive — 100 more</b> (2025 remainder and earlier)</summary>
 
 | CVE | Target | Class | CVSS |
 | :--- | :--- | :--- | :--- |
@@ -130,6 +130,7 @@ Offensive security researcher specializing in complex vulnerability research acr
 | [CVE-2024-4367](https://github.com/galletitaconpate/verified-exploits/tree/main/PDF.js/RCE%20-%20CVE-2024-4367) | PDF.js | RCE | 8.8 |
 | [CVE-2024-48990](https://github.com/galletitaconpate/verified-exploits/tree/main/needrestart/LPE%20-%20CVE-2024-48990) | needrestart | LPE | 7.8 |
 | [CVE-2024-49019](https://github.com/galletitaconpate/verified-exploits/tree/main/Microsoft%20AD%20CS/PrivEsc%20-%20CVE-2024-49019) | Microsoft AD CS | Priv Esc | 7.8 |
+| [CVE-2024-34351](https://github.com/galletitaconpate/verified-exploits/tree/main/Next.js/SSRF%20-%20CVE-2024-34351) | Next.js | SSRF | 7.5 |
 | [CVE-2024-41817](https://github.com/galletitaconpate/verified-exploits/tree/main/ImageMagick/RCE%20-%20CVE-2024-41817) | ImageMagick | RCE | 7.0 |
 | [CVE-2024-23334](https://github.com/galletitaconpate/verified-exploits/tree/main/aiohttp/PathTraversal%20-%20CVE-2024-23334) | aiohttp | Path Traversal | 5.9 |
 | [CVE-2024-47176](https://github.com/galletitaconpate/verified-exploits/tree/main/CUPS/RCE%20-%20CVE-2024-47176) | CUPS | RCE | 5.3 |
