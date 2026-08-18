@@ -238,8 +238,8 @@ Offensive security researcher specializing in complex vulnerability research acr
 | 🧪 P.O.O. | HTB Pro Lab | ✅ June 2026 |
 | 🧪 Mythical | HTB Pro Lab | ✅ June 2026 |
 | 🧪 Unintended | HTB Pro Lab | ✅ Completed |
-| 🟦 CAPE | HTB Certified Active Directory Pentesting Expert | 🔄 100% |
-| 🟧 CWPE | HTB Wi-Fi Penetration Tester | ⏳ Awaiting results |
+| 🟩 CAPE | HTB Certified Active Directory Pentesting Expert | ✅ Ready to sit |
+| 🟧 CWPE | HTB Certified Wi-Fi Pentesting Expert | ⏳ Awaiting results |
 
 <!-- certifications:end -->
 
