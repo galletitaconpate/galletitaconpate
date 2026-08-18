@@ -48,10 +48,11 @@ Offensive security researcher specializing in complex vulnerability research acr
 
 ### 🛡️ Security Research & Disclosures
 
-*5 advisories · 3 sole credit · 2 co-credited.*
+*6 advisories · 3 sole credit · 3 co-credited.*
 
 | ID | Target | Severity | Fixed in | Finding |
 | :--- | :--- | :--- | :--- | :--- |
+| [GHSA-g8wf-fmj5-38vr](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-g8wf-fmj5-38vr) | DefectDojo | Moderate 5.4 | `3.2.200` | Private notes were readable and modifiable by other members of the same product *(co-credited, 2 reporters)* |
 | [GHSA-66mc-2whw-f3w9](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-66mc-2whw-f3w9) | DefectDojo | Moderate 4.3 | `3.1.302` | Missing Authorization in Global Search Allows Cross-Product Disclosure of Product Metadata *(co-credited, 2 reporters)* |
 | [GHSA-f2mc-9pw6-w3mf](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-f2mc-9pw6-w3mf) | DefectDojo | Moderate 5.4 | `3.1.301` | Product Type Membership Could Be Changed Through the API Without the Member-Management Permission |
 | [GHSA-j4rw-3r36-79pm](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-j4rw-3r36-79pm) | DefectDojo | Moderate 5.4 | `3.1.100` | Missing authorization on questionnaire relink allows cross-product access to questionnaire responses |
