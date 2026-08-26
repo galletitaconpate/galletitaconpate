@@ -221,27 +221,28 @@ Offensive security researcher specializing in complex vulnerability research acr
 
 | Badge | Name | Status |
 |-------|------|--------|
+| 🟩 CAPE | HTB Certified Active Directory Pentesting Expert | ✅ Ready to sit |
+| 🟧 CWPE | HTB Certified Wi-Fi Pentesting Expert | ⏳ Awaiting results |
 | 🟩 CWEE | [HTB Certified Web Exploitation Expert](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-0682E04537) | ✅ August 2026 |
+| 🧪 Puppet | HTB Pro Lab | ✅ August 2026 |
 | 🟩 CPTS | [HTB Certified Penetration Testing Specialist](https://academy.hackthebox.com/achievement/badge/34f5ae2f-8b59-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
 | 🟩 CJCA | [HTB Certified Junior Cybersecurity Associate](https://academy.hackthebox.com/achievement/badge/e5289ccc-8698-11f1-82d1-bea50ffe6cb4) | ✅ July 2026 |
 | 🟩 COAE | [HTB Certified Offensive AI Expert](https://academy.hackthebox.com/achievement/badge/5f61e864-73aa-11f1-82d1-bea50ffe6cb4) | ✅ June 2026 |
+| 🧪 Dante | HTB Pro Lab | ✅ June 2026 |
+| 🧪 P.O.O. | HTB Pro Lab | ✅ June 2026 |
+| 🧪 Mythical | HTB Pro Lab | ✅ June 2026 |
 | 🟩 CWES | [HTB Certified Web Exploitation Specialist](https://academy.hackthebox.com/achievement/badge/be48e831-d1cd-11f0-9254-bea50ffe6cb4) | ✅ December 2025 |
 | 🟩 CEHv12 | Certified Ethical Hacker (CEH v12) | ✅ December 2023 |
+| 🟩 CYBERCRIME | Expert in Cybercrime and Cybersecurity Investigation | ✅ July 2022 |
 | 🟩 eWPT | Web Application Penetration Tester | ✅ February 2022 |
 | 🟩 CS50-AI | CS50 Introduction to AI with Python | ✅ February 2022 |
 | 🟩 PY-RESEARCH | Using Python for Research | ✅ February 2022 |
-| 🟩 CYBERCRIME | Expert in Cybercrime and Cybersecurity Investigation | ✅ July 2022 |
 | 🟩 eJPT | Junior Penetration Tester | ✅ May 2021 |
 | 🟩 BURP-ADV | Advanced Burp Suite | ✅ November 2019 |
 | 🟩 PY-ADV | Advanced Python | ✅ February 2019 |
 | 🟩 QA-TESTER | Software Tester QA | ✅ June 2018 |
 | 🟩 EH-PENTEST | Ethical Hacking and Pentesting | ✅ June 2018 |
-| 🧪 Dante | HTB Pro Lab | ✅ June 2026 |
-| 🧪 P.O.O. | HTB Pro Lab | ✅ June 2026 |
-| 🧪 Mythical | HTB Pro Lab | ✅ June 2026 |
 | 🧪 Unintended | HTB Pro Lab | ✅ Completed |
-| 🟩 CAPE | HTB Certified Active Directory Pentesting Expert | ✅ Ready to sit |
-| 🟧 CWPE | HTB Certified Wi-Fi Pentesting Expert | ⏳ Awaiting results |
 
 <!-- certifications:end -->
 
