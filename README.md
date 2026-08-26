@@ -231,6 +231,7 @@ Offensive security researcher specializing in complex vulnerability research acr
 | 🧪 Dante | HTB Pro Lab | `HTBCERT-EE52EA6552` | ✅ June 2026 |
 | 🧪 P.O.O. | HTB Pro Lab | `HTBCERT-38E9502AED` | ✅ June 2026 |
 | 🧪 Mythical | HTB Pro Lab | `HTBCERT-6EAF0E59C6` | ✅ June 2026 |
+| 🧪 Unintended | HTB Pro Lab | `HTBCERT-B11C77CFCA` | ✅ June 2026 |
 | 🟩 CWES | [HTB Certified Web Exploitation Specialist](https://academy.hackthebox.com/achievement/badge/be48e831-d1cd-11f0-9254-bea50ffe6cb4) | `HTBCERT-414397D53C` | ✅ December 2025 |
 | 🟩 CEHv12 | Certified Ethical Hacker (CEH v12) | — | ✅ December 2023 |
 | 🟩 CYBERCRIME | Expert in Cybercrime and Cybersecurity Investigation | — | ✅ July 2022 |
@@ -242,7 +243,6 @@ Offensive security researcher specializing in complex vulnerability research acr
 | 🟩 PY-ADV | Advanced Python | — | ✅ February 2019 |
 | 🟩 QA-TESTER | Software Tester QA | — | ✅ June 2018 |
 | 🟩 EH-PENTEST | Ethical Hacking and Pentesting | — | ✅ June 2018 |
-| 🧪 Unintended | HTB Pro Lab | `HTBCERT-B11C77CFCA` | ✅ Completed |
 
 <!-- certifications:end -->
 
