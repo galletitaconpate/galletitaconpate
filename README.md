@@ -43,8 +43,8 @@ Offensive security researcher specializing in complex vulnerability research acr
 
 | Platform | Stats |
 |----------|-------|
-| **HackerOne** · [`galletitaconpate`](https://hackerone.com/galletitaconpate) | 🎯 Signal **7.0** (95th pct) · Impact **21.0** (90th pct) · **421** rep · **28** credited · **12** thanks |
-| **CyScope** · `r4zk3r` | 🏆 Rank **#7** · **638 pts** · **57 vulns** · **78%** accuracy · avg severity **6.59** |
+| **HackerOne** · [`galletitaconpate`](https://hackerone.com/galletitaconpate) | 🎯 Signal **7.0** (90th pct) · Impact **21.0** (90th pct) · **453** rep · **31** credited · **12** thanks |
+| **CyScope** · `r4zk3r` | 🏆 Rank **#7** · **734 pts** · **65 vulns** · **72%** accuracy · avg severity **6.71** |
 
 ### 🛡️ Security Research & Disclosures
 
