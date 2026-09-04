@@ -48,10 +48,11 @@ Offensive security researcher specializing in complex vulnerability research acr
 
 ### 🛡️ Security Research & Disclosures
 
-*8 advisories · 5 sole credit · 3 co-credited.*
+*9 advisories · 6 sole credit · 3 co-credited.*
 
 | ID | Target | Severity | Fixed in | Finding |
 | :--- | :--- | :--- | :--- | :--- |
+| [GHSA-vxvf-jjrg-26w8](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-vxvf-jjrg-26w8) | DefectDojo | Moderate 4.3 | `3.2.300` | Missing Authorization on Open Questionnaire Write Operations in DefectDojo Pro |
 | [GHSA-wf7g-4v94-85qm](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-wf7g-4v94-85qm) | DefectDojo | Moderate 6.5 | `3.2.201` | Cross-product disclosure of finding data through the DefectDojo Pro compliance module |
 | [GHSA-67w9-42qx-7mcg](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-67w9-42qx-7mcg) | DefectDojo | Moderate 6.5 | `3.2.201` | Cross-product disclosure of finding data through the scan import preview API in DefectDojo Pro |
 | [GHSA-g8wf-fmj5-38vr](https://github.com/DefectDojo/django-DefectDojo/security/advisories/GHSA-g8wf-fmj5-38vr) | DefectDojo | Moderate 5.4 | `3.2.200` | Private notes were readable and modifiable by other members of the same product *(co-credited, 2 reporters)* |
