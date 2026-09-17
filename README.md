@@ -69,17 +69,18 @@ Offensive security researcher specializing in complex vulnerability research acr
 <!-- exploit-development:start -->
 ## exploit development
 
-**120 reproduced exploits** across 104 products — every entry was actually run against the affected version, never copied from a writeup. 82 ship a runnable PoC; 44 are CVSS-critical.
+**121 reproduced exploits** across 104 products — every entry was actually run against the affected version, never copied from a writeup. 83 ship a runnable PoC; 45 are CVSS-critical.
 
 → **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
 
-`2026` 10 · `2025` 23 · `≤2024` 87&nbsp;&nbsp;|&nbsp;&nbsp;RCE 56 · LPE 17 · Auth Bypass 9 · Path Traversal 8 · SQL Injection 7 · Info Disclosure 4
+`2026` 11 · `2025` 23 · `≤2024` 87&nbsp;&nbsp;|&nbsp;&nbsp;RCE 56 · LPE 17 · Auth Bypass 9 · Path Traversal 8 · SQL Injection 8 · Info Disclosure 4
 
 ### 2026
 
 | CVE | Target | Class | CVSS |
 | :--- | :--- | :--- | :--- |
 | [CVE-2026-29000](https://github.com/galletitaconpate/verified-exploits/tree/main/pac4j/AuthBypass%20-%20CVE-2026-29000) | pac4j | Auth Bypass | **10.0** |
+| [CVE-2026-72898](https://github.com/galletitaconpate/verified-exploits/tree/main/Metabase/SQLi%20-%20CVE-2026-72898) | Metabase | SQL Injection | **10.0** |
 | [CVE-2026-23744](https://github.com/galletitaconpate/verified-exploits/tree/main/MCPJam%20Inspector/RCE%20-%20CVE-2026-23744) | MCPJam Inspector | RCE | **9.8** |
 | [CVE-2026-27944](https://github.com/galletitaconpate/verified-exploits/tree/main/Nginx-UI/AuthBypass%20-%20CVE-2026-27944) | Nginx-UI | Auth Bypass | **9.8** |
 | [CVE-2026-33017](https://github.com/galletitaconpate/verified-exploits/tree/main/Langflow/RCE%20-%20CVE-2026-33017) | Langflow | RCE | **9.8** |
@@ -223,7 +224,7 @@ Offensive security researcher specializing in complex vulnerability research acr
 | Badge | Name | Credential | Status |
 |-------|------|------------|--------|
 | 🟩 CAPE | HTB Certified Active Directory Pentesting Expert | — | ✅ Ready to sit |
-| 🟧 CWPE | HTB Certified Wi-Fi Pentesting Expert | — | ⏳ Awaiting results |
+| 🟩 CWPE | [HTB Certified Wi-Fi Pentesting Expert](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-E012B7BEA6) | `HTBCERT-E012B7BEA6` | ✅ September 2026 |
 | 🟩 CWEE | [HTB Certified Web Exploitation Expert](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-0682E04537) | `HTBCERT-0682E04537` | ✅ August 2026 |
 | 🧪 Puppet | HTB Pro Lab | `HTBCERT-356919F511` | ✅ August 2026 |
 | 🟩 CPTS | [HTB Certified Penetration Testing Specialist](https://academy.hackthebox.com/achievement/badge/34f5ae2f-8b59-11f1-82d1-bea50ffe6cb4) | `HTBCERT-5A5556FF17` | ✅ July 2026 |
