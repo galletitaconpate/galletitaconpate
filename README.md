@@ -69,11 +69,11 @@ Offensive security researcher specializing in complex vulnerability research acr
 <!-- exploit-development:start -->
 ## exploit development
 
-**121 reproduced exploits** across 104 products — every entry was actually run against the affected version, never copied from a writeup. 83 ship a runnable PoC; 45 are CVSS-critical.
+**124 reproduced exploits** across 106 products — every entry was actually run against the affected version, never copied from a writeup. 85 ship a runnable PoC; 46 are CVSS-critical.
 
 → **[galletitaconpate/verified-exploits](https://github.com/galletitaconpate/verified-exploits)** · [by CWE](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CWE.md) · [by class](https://github.com/galletitaconpate/verified-exploits/blob/main/INDEX_BY_CLASS.md)
 
-`2026` 11 · `2025` 23 · `≤2024` 87&nbsp;&nbsp;|&nbsp;&nbsp;RCE 56 · LPE 17 · Auth Bypass 9 · Path Traversal 8 · SQL Injection 8 · Info Disclosure 4
+`2026` 14 · `2025` 23 · `≤2024` 87&nbsp;&nbsp;|&nbsp;&nbsp;RCE 58 · LPE 18 · Auth Bypass 9 · Path Traversal 8 · SQL Injection 8 · Info Disclosure 4
 
 ### 2026
 
@@ -86,9 +86,12 @@ Offensive security researcher specializing in complex vulnerability research acr
 | [CVE-2026-33017](https://github.com/galletitaconpate/verified-exploits/tree/main/Langflow/RCE%20-%20CVE-2026-33017) | Langflow | RCE | **9.8** |
 | [CVE-2026-33937](https://github.com/galletitaconpate/verified-exploits/tree/main/Handlebars.js/RCE%20-%20CVE-2026-33937) | Handlebars.js | RCE | **9.8** |
 | [CVE-2026-63030](https://github.com/galletitaconpate/verified-exploits/tree/main/WordPress/SQLi%20-%20CVE-2026-63030) | WordPress | SQL Injection | **9.8** |
+| [CVE-2026-33439](https://github.com/galletitaconpate/verified-exploits/tree/main/OpenAM/RCE%20-%20CVE-2026-33439) | OpenAM | RCE | **9.3** |
 | [CVE-2026-4480](https://github.com/galletitaconpate/verified-exploits/tree/main/Samba/RCE%20-%20CVE-2026-4480) | Samba | RCE | **9.0** |
 | [CVE-2026-41651](https://github.com/galletitaconpate/verified-exploits/tree/main/PackageKit/LPE%20-%20CVE-2026-41651) | PackageKit | LPE | 8.8 |
+| [CVE-2026-44011](https://github.com/galletitaconpate/verified-exploits/tree/main/Craft%20CMS/RCE%20-%20CVE-2026-44011) | Craft CMS | RCE | 8.6 |
 | [CVE-2026-26231](https://github.com/galletitaconpate/verified-exploits/tree/main/Gitea/AuthBypass%20-%20CVE-2026-26231) | Gitea | Auth Bypass | 8.5 |
+| [CVE-2026-34990](https://github.com/galletitaconpate/verified-exploits/tree/main/CUPS/LPE%20-%20CVE-2026-34990) | CUPS | LPE | 7.8 |
 | [CVE-2026-3888](https://github.com/galletitaconpate/verified-exploits/tree/main/snapd/LPE%20-%20CVE-2026-3888) | snapd | LPE | 7.8 |
 
 ### 2025 · top 10 of 23
@@ -223,7 +226,7 @@ Offensive security researcher specializing in complex vulnerability research acr
 
 | Badge | Name | Credential | Status |
 |-------|------|------------|--------|
-| 🟩 CAPE | HTB Certified Active Directory Pentesting Expert | — | ✅ Ready to sit |
+| 🟩 CAPE | [HTB Certified Active Directory Pentesting Expert](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-482385FD3F) | `HTBCERT-482385FD3F` | ✅ November 2026 |
 | 🟩 CWPE | [HTB Certified Wi-Fi Pentesting Expert](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-E012B7BEA6) | `HTBCERT-E012B7BEA6` | ✅ September 2026 |
 | 🟩 CWEE | [HTB Certified Web Exploitation Expert](https://profile.hackthebox.com/profile/019d0289-7980-737b-b2dd-48f7a5b1e2dc/certificate/HTBCERT-0682E04537) | `HTBCERT-0682E04537` | ✅ August 2026 |
 | 🧪 Puppet | HTB Pro Lab | `HTBCERT-356919F511` | ✅ August 2026 |
